@@ -11,3 +11,4 @@
 
 #### 中等（middle）
 - [x] 1-两数相加（add-two-numbers）[查看原题](https://leetcode-cn.com/problems/add-two-numbers/)
+- [x] 2-无重复字符的最长子串（longest-substring-without-repeating-characters）[查看原题](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
