@@ -10,6 +10,7 @@
 - [x] 2-罗马数字转整数（roman-to-integer）[查看原题](https://leetcode-cn.com/problems/roman-to-integer/)
 - [x] 3-最长公共前缀（longest-common-prefix）[查看原题](https://leetcode-cn.com/problems/longest-common-prefix/)
 - [x] 4-有效的括号（valid-parentheses）[查看原题](https://leetcode-cn.com/problems/valid-parentheses/)
+- [x] 5-打家劫舍（house-robber）[查看原题](https://leetcode-cn.com/problems/house-robber/)
 
 #### 中等（middle）
 - [x] 1-两数相加（add-two-numbers）[查看原题](https://leetcode-cn.com/problems/add-two-numbers/)
