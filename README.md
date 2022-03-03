@@ -21,4 +21,5 @@
 - [x] 6-电话号码的字母组合（letter-combinations-of-a-phone-number）[查看原题](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)
 - [x] 7-删除链表的倒数第N个节点（remove-nth-node-from-end-of-list/submissions）[查看原题](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/submissions/)
 - [x] 8-括号自动生成排列组合（generate-parentheses）[查看原题](https://leetcode-cn.com/problems/generate-parentheses/)
+- [x] 9-颜色分类（sort-colors）[查看原题](https://leetcode-cn.com/problems/sort-colors/)
 
