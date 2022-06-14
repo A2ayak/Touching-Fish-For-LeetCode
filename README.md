@@ -9,6 +9,7 @@
 - [X] 3-最长公共前缀（longest-common-prefix）[查看原题](https://leetcode-cn.com/problems/longest-common-prefix/)
 - [X] 4-有效的括号（valid-parentheses）[查看原题](https://leetcode-cn.com/problems/valid-parentheses/)
 - [X] 5-打家劫舍（house-robber）[查看原题](https://leetcode-cn.com/problems/house-robber/)
+- [X] 6-高度检查器（height-checker）[查看原题](https://leetcode.cn/problems/height-checker/)
 
 #### 中等（middle）
 
