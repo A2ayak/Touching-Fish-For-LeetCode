@@ -20,8 +20,4 @@ var rob = function(nums) {
   return sum1 > sum2 ? sum1 : sum2
 };
 
-console.log(rob([1,2,3,1]));
-
-console.log('test')
-
-console.log('vscode-test');
+console.log(rob([1,2,3,1]))
