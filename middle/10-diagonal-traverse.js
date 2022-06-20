@@ -65,9 +65,7 @@ var findDiagonalOrder = function(mat) {
   while (row < h && col < w) {
     ans.push(mat[row][col])
     let newRow = isGoRightTop ? row - 1 : row + 1
-    // let newRow = direction === 0 ? row - 1 : row + 1;
     let newCol = isGoRightTop ? col + 1 : col - 1
-    // let newCol = direction === 0 ? col + 1 : col - 1;
     // 走到边界
     if (newRow < 0 || newRow === h || newCol < 0 || newCol === w) {
       if (isGoRightTop) {
@@ -75,8 +73,7 @@ var findDiagonalOrder = function(mat) {
         col += (col < w - 1 ? 1 : 0)
       } else {
       col += (row === h - 1 ? 1 : 0)
-        row += (row < h - 1 ? 1 : 0)
-       
+      row += (row < h - 1 ? 1 : 0)
       }
       isGoRightTop = !isGoRightTop
     } else {

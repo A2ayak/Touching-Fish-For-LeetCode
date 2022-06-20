@@ -23,3 +23,4 @@
 - [X] 8-括号自动生成排列组合（generate-parentheses）[查看原题](https://leetcode-cn.com/problems/generate-parentheses/)
 - [X] 9-颜色分类（sort-colors）[查看原题](https://leetcode-cn.com/problems/sort-colors/)
 - [X] 10-对角线遍历（diagonal-traverse）[查看原题](https://leetcode.cn/problems/diagonal-traverse/)
+- [X] 11-数组中的k-diff数对（k-diff-pairs-in-an-array）[查看原题](https://leetcode.cn/problems/k-diff-pairs-in-an-array/)
