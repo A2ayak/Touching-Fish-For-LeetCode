@@ -11,6 +11,7 @@
 - [X] 05-打家劫舍（house-robber）[查看原题](https://leetcode-cn.com/problems/house-robber/)
 - [X] 06-高度检查器（height-checker）[查看原题](https://leetcode.cn/problems/height-checker/)
 - [X] 07-复写0（duplicate-zeros）[查看原题](https://leetcode.cn/problems/duplicate-zeros/)
+- [X] 08-IP 地址无效化（defanging-an-ip-address）[查看原题](https://leetcode.cn/problems/defanging-an-ip-address/)
 
 #### 中等（middle）
 
