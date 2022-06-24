@@ -1,5 +1,5 @@
 /**
- * 找树左下角的值
+ * 在每个树行中找最大值
  * https://leetcode.cn/problems/find-largest-value-in-each-tree-row/
  * @param {TreeNode} root
  * @return {number[]}
