@@ -1,3 +1,11 @@
+<!--
+ * @Author: A2ayak 429853312@qq.com
+ * @Date: 2022-01-24 17:48:19
+ * @LastEditors: A2ayak 429853312@qq.com
+ * @LastEditTime: 2022-09-29 15:42:18
+ * @FilePath: \Touching-Fish-For-LeetCode\README.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 # Touching-Fish-For-LeetCode
 
 摸鱼，又称 slack off / goof around(off)，为什么还要用 touch fish ？别问，问就是语义化，摸就要摸得光明正大
@@ -12,6 +20,7 @@
 - [X] 06-高度检查器（height-checker）[查看原题](https://leetcode.cn/problems/height-checker/)
 - [X] 07-复写0（duplicate-zeros）[查看原题](https://leetcode.cn/problems/duplicate-zeros/)
 - [X] 08-IP 地址无效化（defanging-an-ip-address）[查看原题](https://leetcode.cn/problems/defanging-an-ip-address/)
+- [X] 09-字符串轮转（string-rotation-lcci）[查看原题](https://leetcode.cn/problems/string-rotation-lcci/)
 
 #### 中等（middle）
 
