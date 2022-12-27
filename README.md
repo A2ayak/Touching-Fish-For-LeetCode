@@ -21,6 +21,7 @@
 - [X] 07-复写0（duplicate-zeros）[查看原题](https://leetcode.cn/problems/duplicate-zeros/)
 - [X] 08-IP 地址无效化（defanging-an-ip-address）[查看原题](https://leetcode.cn/problems/defanging-an-ip-address/)
 - [X] 09-字符串轮转（string-rotation-lcci）[查看原题](https://leetcode.cn/problems/string-rotation-lcci/)
+- [X] 10-转换字符串的最少操作次数（minimum-moves-to-convert-string）[查看原题](https://leetcode.cn/problems/minimum-moves-to-convert-string/)
 
 #### 中等（middle）
 
