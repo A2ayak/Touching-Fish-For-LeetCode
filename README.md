@@ -6,6 +6,7 @@
  * @FilePath: \Touching-Fish-For-LeetCode\README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
+
 # Touching-Fish-For-LeetCode
 
 摸鱼，又称 slack off / goof around(off)，为什么还要用 touch fish ？别问，问就是语义化，摸就要摸得光明正大
@@ -23,9 +24,8 @@
 - [X] 09-字符串轮转（string-rotation-lcci）[查看原题](https://leetcode.cn/problems/string-rotation-lcci/)
 - [X] 10-转换字符串的最少操作次数（minimum-moves-to-convert-string）[查看原题](https://leetcode.cn/problems/minimum-moves-to-convert-string/)
 
-#### 中等（middle）
+#### 中等（middle） 01-两数相加（add-two-numbers）[查看原题](https://leetcode-cn.com/problems/add-two-numbers/)
 
-- [X] 01-两数相加（add-two-numbers）[查看原题](https://leetcode-cn.com/problems/add-two-numbers/)
 - [X] 02-无重复字符的最长子串（longest-substring-without-repeating-characters）[查看原题](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
 - [X] 03-最长回文子串（longest-palindromic-substring）[查看原题](https://leetcode-cn.com/problems/longest-palindromic-substring/submissions/)
 - [X] 04-盛水最多的容器（container-with-most-water）[查看原题](https://leetcode-cn.com/problems/container-with-most-water/)
