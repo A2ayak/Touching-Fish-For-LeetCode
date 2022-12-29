@@ -25,7 +25,8 @@
 - [X] 10-转换字符串的最少操作次数（minimum-moves-to-convert-string）[查看原题](https://leetcode.cn/problems/minimum-moves-to-convert-string/)
 - [X] 11-至少在两个数组中出现的值（two-out-of-three）[查看原题](https://leetcode.cn/problems/two-out-of-three/)
 
-#### 中等（middle） 01-两数相加（add-two-numbers）[查看原题](https://leetcode-cn.com/problems/add-two-numbers/)
+#### 中等（middle）
+- [X] 01-两数相加（add-two-numbers）[查看原题](https://leetcode-cn.com/problems/add-two-numbers/)
 
 - [X] 02-无重复字符的最长子串（longest-substring-without-repeating-characters）[查看原题](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
 - [X] 03-最长回文子串（longest-palindromic-substring）[查看原题](https://leetcode-cn.com/problems/longest-palindromic-substring/submissions/)
