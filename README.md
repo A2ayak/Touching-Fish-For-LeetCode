@@ -41,3 +41,7 @@
 - [X] 11-数组中的k-diff数对（k-diff-pairs-in-an-array）[查看原题](https://leetcode.cn/problems/k-diff-pairs-in-an-array/)
 - [X] 12-找树左下角的值（find-bottom-left-tree-value）[查看原题](https://leetcode.cn/problems/find-bottom-left-tree-value/)
 - [X] 13-在每个树行中找最大值（find-bottom-left-tree-value）[查看原题](https://leetcode.cn/problems/find-largest-value-in-each-tree-row/)
+- [X] 14-摆动排序 II（wiggle-sort-ii）[查看原题](https://leetcode.cn/problems/wiggle-sort-ii/)
+- [ ] 15-到达终点数字（reach-a-number）[查看原题](https://leetcode.cn/problems/reach-a-number/)
+- [X] 16-删除字符串两端相同字符后的最短长度（minimum-length-of-string-after-deleting-similar-ends）[查看原题](https://leetcode.cn/problems/minimum-length-of-string-after-deleting-similar-ends/)
+- [X] 17-有界数组中指定下标处的最大值（maximum-value-at-a-given-index-in-a-bounded-array）[查看原题](https://leetcode.cn/problems/maximum-value-at-a-given-index-in-a-bounded-array/)
