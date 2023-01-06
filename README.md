@@ -45,3 +45,6 @@
 - [ ] 15-到达终点数字（reach-a-number）[查看原题](https://leetcode.cn/problems/reach-a-number/)
 - [X] 16-删除字符串两端相同字符后的最短长度（minimum-length-of-string-after-deleting-similar-ends）[查看原题](https://leetcode.cn/problems/minimum-length-of-string-after-deleting-similar-ends/)
 - [X] 17-有界数组中指定下标处的最大值（maximum-value-at-a-given-index-in-a-bounded-array）[查看原题](https://leetcode.cn/problems/maximum-value-at-a-given-index-in-a-bounded-array/)
+
+#### 困难（hard）
+- [X] 01-统计异或值在范围内的数对有多少（count-pairs-with-xor-in-a-range）[查看原题](https://leetcode.cn/problems/count-pairs-with-xor-in-a-range/)
