@@ -25,6 +25,7 @@
 - [X] 10-转换字符串的最少操作次数（minimum-moves-to-convert-string）[查看原题](https://leetcode.cn/problems/minimum-moves-to-convert-string/)
 - [X] 11-至少在两个数组中出现的值（two-out-of-three）[查看原题](https://leetcode.cn/problems/two-out-of-three/)
 - [X] 12-检查句子中的数字是否递增（check-if-numbers-are-ascending-in-a-sentence）[查看原题](https://leetcode.cn/problems/check-if-numbers-are-ascending-in-a-sentence/)
+- [X] 13-统计各位数字之和为偶数的整数个数（count-integers-with-even-digit-sum）[查看原题](https://leetcode.cn/problems/count-integers-with-even-digit-sum/)
 
 #### 中等（middle）
 - [X] 01-两数相加（add-two-numbers）[查看原题](https://leetcode-cn.com/problems/add-two-numbers/)
