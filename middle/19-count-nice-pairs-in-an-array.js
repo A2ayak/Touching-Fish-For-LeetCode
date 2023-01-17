@@ -32,7 +32,7 @@ var countNicePairs = function (nums) {
 			res += (i * (i - 1)) / 2
 		}
 	})
-	return res
+	return res % MOD
 }
 
 const nums = [42, 11, 1, 97]
