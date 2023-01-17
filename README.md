@@ -27,6 +27,7 @@
 - [X] 12-检查句子中的数字是否递增（check-if-numbers-are-ascending-in-a-sentence）[查看原题](https://leetcode.cn/problems/check-if-numbers-are-ascending-in-a-sentence/)
 - [X] 13-统计各位数字之和为偶数的整数个数（count-integers-with-even-digit-sum）[查看原题](https://leetcode.cn/problems/count-integers-with-even-digit-sum/)
 - [X] 14-判断一个数的数字计数是否等于数位的值（check-if-number-has-equal-digit-count-and-digit-value）[查看原题](https://leetcode.cn/problems/check-if-number-has-equal-digit-count-and-digit-value/)
+- [X] 15-重排字符形成目标字符串（rearrange-characters-to-make-target-string）[查看原题](https://leetcode.cn/problems/rearrange-characters-to-make-target-string/)
 
 #### 中等（middle）
 - [X] 01-两数相加（add-two-numbers）[查看原题](https://leetcode-cn.com/problems/add-two-numbers/)
@@ -48,6 +49,7 @@
 - [X] 16-删除字符串两端相同字符后的最短长度（minimum-length-of-string-after-deleting-similar-ends）[查看原题](https://leetcode.cn/problems/minimum-length-of-string-after-deleting-similar-ends/)
 - [X] 17-有界数组中指定下标处的最大值（maximum-value-at-a-given-index-in-a-bounded-array）[查看原题](https://leetcode.cn/problems/maximum-value-at-a-given-index-in-a-bounded-array/)
 - [X] 18-替换字符串中的括号内容（evaluate-the-bracket-pairs-of-a-string）[查看原题](https://leetcode.cn/problems/evaluate-the-bracket-pairs-of-a-string/)
+- [X] 19-统计一个数组中好对子的数目（count-nice-pairs-in-an-array）[查看原题](https://leetcode.cn/problems/count-nice-pairs-in-an-array/)
 
 #### 困难（hard）
 - [X] 01-统计异或值在范围内的数对有多少（count-pairs-with-xor-in-a-range）[查看原题](https://leetcode.cn/problems/count-pairs-with-xor-in-a-range/)
