@@ -28,6 +28,7 @@
 - [X] 13-统计各位数字之和为偶数的整数个数（count-integers-with-even-digit-sum）[查看原题](https://leetcode.cn/problems/count-integers-with-even-digit-sum/)
 - [X] 14-判断一个数的数字计数是否等于数位的值（check-if-number-has-equal-digit-count-and-digit-value）[查看原题](https://leetcode.cn/problems/check-if-number-has-equal-digit-count-and-digit-value/)
 - [X] 15-重排字符形成目标字符串（rearrange-characters-to-make-target-string）[查看原题](https://leetcode.cn/problems/rearrange-characters-to-make-target-string/)
+- [X] 16-判断矩阵是否是一个 X 矩阵（check-if-matrix-is-x-matrix）[查看原题](https://leetcode.cn/problems/check-if-matrix-is-x-matrix/)
 
 #### 中等（middle）
 - [X] 01-两数相加（add-two-numbers）[查看原题](https://leetcode-cn.com/problems/add-two-numbers/)
