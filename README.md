@@ -9,7 +9,7 @@
 
 # Touching-Fish-For-LeetCode
 
-摸鱼，又称 slack off / goof around(off)，为什么还要用 touch fish ？别问，问就是语义化，摸就要摸得光明正大
+摸鱼，又称 slack off / goof around(off)，为什么还要用 Touching fish ？因为没有CN特色
 
 #### 简单（easy）
 
