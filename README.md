@@ -52,6 +52,7 @@
 - [X] 17-有界数组中指定下标处的最大值（maximum-value-at-a-given-index-in-a-bounded-array）[查看原题](https://leetcode.cn/problems/maximum-value-at-a-given-index-in-a-bounded-array/)
 - [X] 18-替换字符串中的括号内容（evaluate-the-bracket-pairs-of-a-string）[查看原题](https://leetcode.cn/problems/evaluate-the-bracket-pairs-of-a-string/)
 - [X] 19-统计一个数组中好对子的数目（count-nice-pairs-in-an-array）[查看原题](https://leetcode.cn/problems/count-nice-pairs-in-an-array/)
+- [X] 20-警告一小时内使用相同员工卡大于等于三次的人（alert-using-same-key-card-three-or-more-times-in-a-one-hour-period）[查看原题](https://leetcode.cn/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)
 
 #### 困难（hard）
 - [X] 01-统计异或值在范围内的数对有多少（count-pairs-with-xor-in-a-range）[查看原题](https://leetcode.cn/problems/count-pairs-with-xor-in-a-range/)
