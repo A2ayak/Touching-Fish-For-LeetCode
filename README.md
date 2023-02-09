@@ -9,7 +9,7 @@
 
 # Touching-Fish-For-LeetCode
 
-摸鱼，又称 slack off / goof around(off)，为什么还要用 Touching fish ？因为没有CN特色
+摸鱼，又称 slack off / goof around(off)，为什么还要用 Touching fish ？
 
 #### 简单（easy）
 
@@ -53,6 +53,9 @@
 - [X] 18-替换字符串中的括号内容（evaluate-the-bracket-pairs-of-a-string）[查看原题](https://leetcode.cn/problems/evaluate-the-bracket-pairs-of-a-string/)
 - [X] 19-统计一个数组中好对子的数目（count-nice-pairs-in-an-array）[查看原题](https://leetcode.cn/problems/count-nice-pairs-in-an-array/)
 - [X] 20-警告一小时内使用相同员工卡大于等于三次的人（alert-using-same-key-card-three-or-more-times-in-a-one-hour-period）[查看原题](https://leetcode.cn/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)
+- [X] 21-删除子文件夹（remove-sub-folders-from-the-filesystem）[查看原题](https://leetcode-cn.com/problems/remove-sub-folders-from-the-filesystem/)
 
 #### 困难（hard）
 - [X] 01-统计异或值在范围内的数对有多少（count-pairs-with-xor-in-a-range）[查看原题](https://leetcode.cn/problems/count-pairs-with-xor-in-a-range/)
+
+---
