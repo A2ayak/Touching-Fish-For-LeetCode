@@ -1,11 +1,11 @@
 const fs = require('fs')
 const readline = require('readline')
 
-const newFilePath = './middle/21-remove-sub-folders-from-the-filesystem.js' // 新增的题目
+const newFilePath = './middle/22-replace-the-substring-for-balanced-string.js' // 新增的题目
 const writeFilePath = './README.md' // 写入地址
 
 console.log('脚本开始执行')
-const difficulty = filePath.split('/')[1] // easy middle hard
+const difficulty = newFilePath.split('/')[1] // easy middle hard
 
 // 先获取新增数据
 const rl = readline.createInterface({

@@ -54,6 +54,7 @@
 - [X] 19-统计一个数组中好对子的数目（count-nice-pairs-in-an-array）[查看原题](https://leetcode.cn/problems/count-nice-pairs-in-an-array/)
 - [X] 20-警告一小时内使用相同员工卡大于等于三次的人（alert-using-same-key-card-three-or-more-times-in-a-one-hour-period）[查看原题](https://leetcode.cn/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)
 - [X] 21-删除子文件夹（remove-sub-folders-from-the-filesystem）[查看原题](https://leetcode-cn.com/problems/remove-sub-folders-from-the-filesystem/)
+- [X] 22-替换子串得到平衡字符串（replace-the-substring-for-balanced-string）[查看原题](https://leetcode-cn.com/problems/replace-the-substring-for-balanced-string/)
 
 #### 困难（hard）
 - [X] 01-统计异或值在范围内的数对有多少（count-pairs-with-xor-in-a-range）[查看原题](https://leetcode.cn/problems/count-pairs-with-xor-in-a-range/)
