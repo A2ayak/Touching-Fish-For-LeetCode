@@ -30,10 +30,10 @@
 - [X] 15-重排字符形成目标字符串（rearrange-characters-to-make-target-string）[查看原题](https://leetcode.cn/problems/rearrange-characters-to-make-target-string/)
 - [X] 16-判断矩阵是否是一个 X 矩阵（check-if-matrix-is-x-matrix）[查看原题](https://leetcode.cn/problems/check-if-matrix-is-x-matrix/)
 - [X] 17-解密消息（decode-the-message）[查看原题](https://leetcode.cn/problems/decode-the-message/)
+- [X] 18-使数组中所有元素都等于零（make-array-zero-by-subtracting-equal-amounts）[查看原题](https://leetcode-cn.com/problems/make-array-zero-by-subtracting-equal-amounts/)
 
 #### 中等（middle）
 - [X] 01-两数相加（add-two-numbers）[查看原题](https://leetcode-cn.com/problems/add-two-numbers/)
-
 - [X] 02-无重复字符的最长子串（longest-substring-without-repeating-characters）[查看原题](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
 - [X] 03-最长回文子串（longest-palindromic-substring）[查看原题](https://leetcode-cn.com/problems/longest-palindromic-substring/submissions/)
 - [X] 04-盛水最多的容器（container-with-most-water）[查看原题](https://leetcode-cn.com/problems/container-with-most-water/)

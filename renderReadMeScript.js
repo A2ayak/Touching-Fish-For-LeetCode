@@ -1,7 +1,7 @@
 const fs = require('fs')
 const readline = require('readline')
 
-const newFilePath = './middle/22-replace-the-substring-for-balanced-string.js' // 新增的题目
+const newFilePath = './easy/18-make-array-zero-by-subtracting-equal-amounts.js' // 新增的题目
 const writeFilePath = './README.md' // 写入地址
 
 console.log('脚本开始执行')
@@ -39,6 +39,7 @@ rl.on('close', function () {
 		index = '0' + index
 	}
 	const newLine = `- [X] ${index}-${nameCN}（${nameENG}）[查看原题](https://leetcode-cn.com/problems/${nameENG}/)`
+	console.log('新增行：', newLine)
 
 	// 逐行读取readMe，构成空白行数组，倒数一二行分别为需要插入middle、easy的行数
 	const rmrl = readline.createInterface({
@@ -53,10 +54,12 @@ rl.on('close', function () {
 		readMeLineIndex++
 	})
 	rmrl.on('close', () => {
+		console.log('空白行', blankArr)
 		const subtractIndex =
 			difficulty === 'easy' ? 3 : difficulty === 'middle' ? 2 : 1
 		const data = fs.readFileSync(writeFilePath, 'utf-8').split('\n')
 		// 在第 blankArr[blankArr.length - subtractIndex] - 1 行插入数据
+		console.log('插入行:', blankArr[blankArr.length - subtractIndex] - 1)
 		data.splice(blankArr[blankArr.length - subtractIndex] - 1, 0, newLine)
 		fs.writeFileSync(writeFilePath, data.join('\n'), 'utf-8')
 		console.log('已更新 README.md')
