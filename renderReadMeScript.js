@@ -1,7 +1,7 @@
 const fs = require('fs')
 const readline = require('readline')
 
-const newFilePath = './easy/18-make-array-zero-by-subtracting-equal-amounts.js' // 新增的题目
+const newFilePath = './middle/23-decrease-elements-to-make-array-zigzag.js' // 新增的题目
 const writeFilePath = './README.md' // 写入地址
 
 console.log('脚本开始执行')
