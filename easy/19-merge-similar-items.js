@@ -11,17 +11,22 @@
  */
 
 var mergeSimilarItems = function (items1, items2) {
+	// const obj = {}
+	// items1.concat(items2).map((item) => {
+	// 	if (obj[item[0]]) {
+	// 		obj[item[0]] += item[1]
+	// 	} else {
+	// 		obj[item[0]] = item[1]
+	// 	}
+	// })
+	// return Object.keys(obj).map((i) => {
+	// 	return [i, obj[i]]
+	// })
 	const obj = {}
 	items1.concat(items2).map((item) => {
-		if (obj[item[0]]) {
-			obj[item[0]] += item[1]
-		} else {
-			obj[item[0]] = item[1]
-		}
+		obj[item[0]] = obj[item[0]] ? obj[item[0]] + item[1] : item[1]
 	})
-	return Object.keys(obj).map((i) => {
-		return [i, obj[i]]
-	})
+	return Object.keys(obj).map((i) => [i, obj[i]])
 }
 
 const items1 = [
