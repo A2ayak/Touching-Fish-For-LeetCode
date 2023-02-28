@@ -1,7 +1,7 @@
 const fs = require('fs')
 const readline = require('readline')
 
-const newFilePath = './middle/23-decrease-elements-to-make-array-zigzag.js' // 新增的题目
+const newFilePath = './easy/19-merge-similar-items.js' // 新增的题目
 const writeFilePath = './README.md' // 写入地址
 
 console.log('脚本开始执行')
