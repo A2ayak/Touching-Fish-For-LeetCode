@@ -1,7 +1,7 @@
 const fs = require('fs')
 const readline = require('readline')
 
-const newFilePath = './easy/20-largest-local-values-in-a-matrix.js' // 新增的题目
+const newFilePath = './middle/24-bianry-number-to-string-lcci.js' // 新增的题目
 const writeFilePath = './README.md' // 写入地址
 
 console.log('脚本开始执行')
