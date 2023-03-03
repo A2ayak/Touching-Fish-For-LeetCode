@@ -59,6 +59,7 @@
 - [X] 22-替换子串得到平衡字符串（replace-the-substring-for-balanced-string）[查看原题](https://leetcode-cn.com/problems/replace-the-substring-for-balanced-string/)
 - [X] 23-递减元素使数组呈锯齿状（decrease-elements-to-make-array-zigzag）[查看原题](https://leetcode-cn.com/problems/decrease-elements-to-make-array-zigzag/)
 - [X] 24-二进制数转字符串（bianry-number-to-string-lcci）[查看原题](https://leetcode-cn.com/problems/bianry-number-to-string-lcci/)
+- [X] 25-保证文件名唯一（making-file-names-unique）[查看原题](https://leetcode-cn.com/problems/making-file-names-unique/)
 
 #### 困难（hard）
 - [X] 01-统计异或值在范围内的数对有多少（count-pairs-with-xor-in-a-range）[查看原题](https://leetcode.cn/problems/count-pairs-with-xor-in-a-range/)

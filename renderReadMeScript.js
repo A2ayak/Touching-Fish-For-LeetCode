@@ -1,7 +1,7 @@
 const fs = require('fs')
 const readline = require('readline')
 
-const newFilePath = './middle/24-bianry-number-to-string-lcci.js' // 新增的题目
+const newFilePath = './middle/25-making-file-names-unique.js' // 新增的题目
 const writeFilePath = './README.md' // 写入地址
 
 console.log('脚本开始执行')
