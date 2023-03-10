@@ -62,6 +62,7 @@
 - [X] 24-二进制数转字符串（bianry-number-to-string-lcci）[查看原题](https://leetcode-cn.com/problems/bianry-number-to-string-lcci/)
 - [X] 25-保证文件名唯一（making-file-names-unique）[查看原题](https://leetcode-cn.com/problems/making-file-names-unique/)
 - [X] 26-使字符串平衡的最少删除次数（minimum-deletions-to-make-string-balanced）[查看原题](https://leetcode-cn.com/problems/minimum-deletions-to-make-string-balanced/)
+- [X] 27-组合总和（combination-sum）[查看原题](https://leetcode-cn.com/problems/combination-sum/)
 
 #### 困难（hard）
 - [X] 01-统计异或值在范围内的数对有多少（count-pairs-with-xor-in-a-range）[查看原题](https://leetcode.cn/problems/count-pairs-with-xor-in-a-range/)

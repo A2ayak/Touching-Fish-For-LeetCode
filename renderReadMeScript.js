@@ -1,8 +1,7 @@
 const fs = require('fs')
 const readline = require('readline')
 
-const newFilePath =
-	'./easy/21-minimum-recolors-to-get-k-consecutive-black-blocks.js' // 新增的题目
+const newFilePath = './middle/27-combination-sum.js' // 新增的题目
 const writeFilePath = './README.md' // 写入地址
 
 console.log('脚本开始执行')
@@ -35,7 +34,8 @@ rl.on('close', function () {
 	nameCN = arr[0]
 	nameENG = arr[1].split('/')[4]
 	const files = fs.readdirSync(`./${difficulty}`)
-	index = Number(files[files.length - 1].split('-')[0])
+	// index = Number(files[files.length - 1].split('-')[0])
+	index = newFilePath.split('/')[2].split('-')[0]
 	if (index < 10) {
 		index = '0' + index
 	}
