@@ -1,7 +1,7 @@
 const fs = require('fs')
 const readline = require('readline')
 
-const newFilePath = './middle/28-make-sum-divisible-by-p.js' // 新增的题目
+const newFilePath = './easy/22-minimum-hours-of-training-to-win-a-competitionjs' // 新增的题目
 const writeFilePath = './README.md' // 写入地址
 
 console.log('脚本开始执行')
