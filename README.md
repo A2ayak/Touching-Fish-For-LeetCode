@@ -65,6 +65,7 @@
 - [X] 26-使字符串平衡的最少删除次数（minimum-deletions-to-make-string-balanced）[查看原题](https://leetcode-cn.com/problems/minimum-deletions-to-make-string-balanced/)
 - [X] 27-组合总和（combination-sum）[查看原题](https://leetcode-cn.com/problems/combination-sum/)
 - [ ] 28-使数组和能被 P 整除（make-sum-divisible-by-p）[查看原题](https://leetcode-cn.com/problems/make-sum-divisible-by-p/)
+- [X] 29-给定行和列的和求可行矩阵（find-valid-matrix-given-row-and-column-sums）[查看原题](https://leetcode-cn.com/problems/find-valid-matrix-given-row-and-column-sums/)
 
 #### 困难（hard）
 - [X] 01-统计异或值在范围内的数对有多少（count-pairs-with-xor-in-a-range）[查看原题](https://leetcode.cn/problems/count-pairs-with-xor-in-a-range/)
