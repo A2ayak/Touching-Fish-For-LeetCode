@@ -35,6 +35,7 @@
 - [X] 20-矩阵中的局部最大值（largest-local-values-in-a-matrix）[查看原题](https://leetcode-cn.com/problems/largest-local-values-in-a-matrix/)
 - [X] 21-得到 K 个黑块的最少涂色次数（minimum-recolors-to-get-k-consecutive-black-blocks）[查看原题](https://leetcode-cn.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)
 - [X] 22-赢得比赛需要的最少训练时长（minimum-hours-of-training-to-win-a-competition）[查看原题](https://leetcode-cn.com/problems/minimum-hours-of-training-to-win-a-competition/)
+- [X] 23-和有限的最长子序列（longest-subsequence-with-limited-sum）[查看原题](https://leetcode-cn.com/problems/longest-subsequence-with-limited-sum/)
 
 #### 中等（middle）
 - [X] 01-两数相加（add-two-numbers）[查看原题](https://leetcode-cn.com/problems/add-two-numbers/)

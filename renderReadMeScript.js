@@ -1,7 +1,7 @@
 const fs = require('fs')
 const readline = require('readline')
 
-const newFilePath = './middle/29-find-valid-matrix-given-row-and-column-sums.js' // 新增的题目
+const newFilePath = './easy/23-longest-subsequence-with-limited-sum.js' // 新增的题目
 const writeFilePath = './README.md' // 写入地址
 
 console.log('脚本开始执行')
