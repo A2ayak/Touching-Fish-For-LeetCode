@@ -15,18 +15,18 @@ var answerQueries = function (nums, queries) {
 	let res = []
 	queries.map((i) => {
 		let total = 0
-		// for (let j = 0; j < numsSorted.length; j++) {
-		// 	total += numsSorted[j]
-		// 	// console.log(j, total)
-		// 	if (total > i) {
-		// 		res.push(j)
-		// 		return
-		// 	}
-		// 	if (j === numsSorted.length - 1 && total <= i) {
-		// 		res.push(numsSorted.length)
-		// 		return
-		// 	}
-		// }
+		for (let j = 0; j < numsSorted.length; j++) {
+			total += numsSorted[j]
+			// console.log(j, total)
+			if (total > i) {
+				res.push(j)
+				return
+			}
+			if (j === numsSorted.length - 1 && total <= i) {
+				res.push(numsSorted.length)
+				return
+			}
+		}
 		// 法二：some可以中途return reduce不行，除非throw newError此时无返回值
 		// numsSorted.some((k, j) => {
 		// 	total += k
