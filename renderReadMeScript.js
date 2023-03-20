@@ -1,7 +1,7 @@
 const fs = require('fs')
 const readline = require('readline')
 
-const newFilePath = './easy/23-longest-subsequence-with-limited-sum.js' // 新增的题目
+const newFilePath = './hard/02-numbers-with-repeated-digits.js' // 新增的题目
 const writeFilePath = './README.md' // 写入地址
 
 console.log('脚本开始执行')
@@ -36,9 +36,6 @@ rl.on('close', function () {
 	const files = fs.readdirSync(`./${difficulty}`)
 	// index = Number(files[files.length - 1].split('-')[0])
 	index = newFilePath.split('/')[2].split('-')[0]
-	if (index < 10) {
-		index = '0' + index
-	}
 	const newLine = `- [X] ${index}-${nameCN}（${nameENG}）[查看原题](https://leetcode-cn.com/problems/${nameENG}/)`
 	console.log('新增行：', newLine)
 

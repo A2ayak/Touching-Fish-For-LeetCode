@@ -70,5 +70,6 @@
 
 #### 困难（hard）
 - [X] 01-统计异或值在范围内的数对有多少（count-pairs-with-xor-in-a-range）[查看原题](https://leetcode.cn/problems/count-pairs-with-xor-in-a-range/)
+- [X] 02-至少有 1 位重复的数字（numbers-with-repeated-digits）[查看原题](https://leetcode-cn.com/problems/numbers-with-repeated-digits/)
 
 ---
