@@ -1,13 +1,10 @@
-let arr = [
-	{ id: 1, name: '1', pid: 0 },
-	{ id: 2, name: '2', pid: 1 },
-	{ id: 3, name: '3', pid: 1 },
-	{ id: 4, name: '4', pid: 3 },
-	{ id: 5, name: '5', pid: 3 },
-	{ id: 0, name: 'root', pid: -1 }
-]
+let arr = Array.from(Array(1000), (v, i) => {
+	return { id: i, pid: i - 1, name: i }
+})
 
-function arrToTree(arrData, rootId = -1) {
+console.time()
+// 性能最优
+function arrToTree(arrData, rootId = 0) {
 	const result = []
 	const itemMap = {}
 	arrData.map((item) => {
@@ -23,4 +20,21 @@ function arrToTree(arrData, rootId = -1) {
 	})
 	return result
 }
+
+// 递归
+// function getChildren(data, result, pid) {
+// 	data.map((item) => {
+// 		if (item.pid === pid) {
+// 			const newItem = { ...item, children: [] }
+// 			result.push(newItem)
+// 			getChildren(data, newItem.children, newItem.id)
+// 		}
+// 	})
+// }
+// function arrToTree(arrData, rootId = -1) {
+// 	const result = []
+// 	getChildren(arrData, result, rootId)
+// 	return result
+// }
 console.log(arrToTree(arr))
+console.timeEnd()
