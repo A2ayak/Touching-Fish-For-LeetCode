@@ -28,3 +28,14 @@ var numDupDigitsAtMostN = function (n) {
 
 const n = 1000 // 262
 console.log(numDupDigitsAtMostN(n))
+
+/* 
+
+num = 3888 
+len = 4
+i = 3 cur_dig = 3888 / 1000 = 3
+j = 1; j < 3; j++
+j = 2
+count += 9 
+
+*/
