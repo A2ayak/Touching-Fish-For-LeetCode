@@ -1,7 +1,8 @@
 const fs = require('fs')
 const readline = require('readline')
 
-const newFilePath = './middle/30-count-sorted-vowel-strings.js' // 新增的题目
+const newFilePath =
+	'./middle/31-widest-vertical-area-between-two-points-containing-no-points.js' // 新增的题目
 const writeFilePath = './README.md' // 写入地址
 
 console.log('脚本开始执行')
