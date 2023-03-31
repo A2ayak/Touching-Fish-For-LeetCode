@@ -37,6 +37,7 @@
 - [X] 22-赢得比赛需要的最少训练时长（minimum-hours-of-training-to-win-a-competition）[查看原题](https://leetcode-cn.com/problems/minimum-hours-of-training-to-win-a-competition/)
 - [X] 23-和有限的最长子序列（longest-subsequence-with-limited-sum）[查看原题](https://leetcode-cn.com/problems/longest-subsequence-with-limited-sum/)
 - [X] 24-温度转换（convert-the-temperature）[查看原题](https://leetcode-cn.com/problems/convert-the-temperature/)
+- [X] 25-算术三元组的数目（number-of-arithmetic-triplets）[查看原题](https://leetcode-cn.com/problems/number-of-arithmetic-triplets/)
 
 #### 中等（middle）
 - [X] 01-两数相加（add-two-numbers）[查看原题](https://leetcode-cn.com/problems/add-two-numbers/)
