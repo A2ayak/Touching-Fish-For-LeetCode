@@ -1,7 +1,7 @@
 const fs = require('fs')
 const readline = require('readline')
 
-const newFilePath = './easy/26-check-distances-between-same-letters.js' // 新增的题目
+const newFilePath = './middle/32-robot-bounded-in-circle.js' // 新增的题目
 const writeFilePath = './README.md' // 写入地址
 
 console.log('脚本开始执行')
