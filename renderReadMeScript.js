@@ -1,7 +1,7 @@
 const fs = require('fs')
 const readline = require('readline')
 
-const newFilePath = './middle/33-next-greater-node-in-linked-list.js' // 新增的题目
+const newFilePath = './hard/03-longest-chunked-palindrome-decomposition.js' // 新增的题目
 const writeFilePath = './README.md' // 写入地址
 
 console.log('脚本开始执行')
