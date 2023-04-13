@@ -1,10 +1,7 @@
-const { log } = require('console')
-
 // 模拟sleep
 function sleep(time) {
 	return new Promise((resolve) => setTimeout(resolve, time))
 }
-
 // 执行任务
 async function execTask(params) {
 	return new Promise((resolve) => {

@@ -1,12 +1,10 @@
 /**
  * 检查相同字母间的距离
- * check-distances-between-same-letters/
+ * https://leetcode.cn/problems/check-distances-between-same-letters/
  * @param {string} s
  * @param {number[]} distance
  * @return {boolean}
  **/
-
-const { log } = require('console')
 
 var checkDistances = function (s, distance) {
 	const map = new Map()
