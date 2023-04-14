@@ -1,7 +1,7 @@
 const fs = require('fs')
 const readline = require('readline')
 
-const newFilePath = './easy/27-most-frequent-even-element.js' // 新增的题目
+const newFilePath = './middle/34-camelcase-matching.js' // 新增的题目
 const writeFilePath = './README.md' // 写入地址
 
 console.log('脚本开始执行')
