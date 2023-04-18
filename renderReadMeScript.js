@@ -1,7 +1,8 @@
 const fs = require('fs')
 const readline = require('readline')
 
-const newFilePath = './easy/28-count-days-spent-together.js' // 新增的题目
+const newFilePath =
+	'./middle/35-maximum-difference-between-node-and-ancestor.js' // 新增的题目
 const writeFilePath = './README.md' // 写入地址
 
 console.log('脚本开始执行')
