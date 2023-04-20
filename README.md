@@ -78,6 +78,7 @@
 - [X] 33-链表中的下一个更大节点（next-greater-node-in-linked-list）[查看原题](https://leetcode-cn.com/problems/next-greater-node-in-linked-list/)
 - [X] 34-驼峰式匹配（camelcase-matching）[查看原题](https://leetcode-cn.com/problems/camelcase-matching/)
 - [X] 35-节点与其祖先之间的最大差值（maximum-difference-between-node-and-ancestor）[查看原题](https://leetcode-cn.com/problems/maximum-difference-between-node-and-ancestor/)
+- [X] 36-分隔数组以得到最大和（partition-array-for-maximum-sum）[查看原题](https://leetcode-cn.com/problems/partition-array-for-maximum-sum/)
 
 #### 困难（hard）
 - [X] 01-统计异或值在范围内的数对有多少（count-pairs-with-xor-in-a-range）[查看原题](https://leetcode.cn/problems/count-pairs-with-xor-in-a-range/)

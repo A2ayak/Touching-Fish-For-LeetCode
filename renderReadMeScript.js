@@ -1,8 +1,7 @@
 const fs = require('fs')
 const readline = require('readline')
 
-const newFilePath =
-	'./middle/35-maximum-difference-between-node-and-ancestor.js' // 新增的题目
+const newFilePath = './middle/36-partition-array-for-maximum-sum.js' // 新增的题目
 const writeFilePath = './README.md' // 写入地址
 
 console.log('脚本开始执行')
