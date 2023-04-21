@@ -41,6 +41,7 @@
 - [X] 26-检查相同字母间的距离（undefined）[查看原题](https://leetcode-cn.com/problems/undefined/)
 - [X] 27-出现最频繁的偶数元素（most-frequent-even-element）[查看原题](https://leetcode-cn.com/problems/most-frequent-even-element/)
 - [X] 28-统计共同度过的日子数（count-days-spent-together）[查看原题](https://leetcode-cn.com/problems/count-days-spent-together/)
+- [X] 29-最小偶倍数（smallest-even-multiple）[查看原题](https://leetcode-cn.com/problems/smallest-even-multiple/)
 
 #### 中等（middle）
 - [X] 01-两数相加（add-two-numbers）[查看原题](https://leetcode-cn.com/problems/add-two-numbers/)

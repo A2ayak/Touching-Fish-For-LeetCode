@@ -1,7 +1,7 @@
 const fs = require('fs')
 const readline = require('readline')
 
-const newFilePath = './middle/36-partition-array-for-maximum-sum.js' // 新增的题目
+const newFilePath = './easy/29-smallest-even-multiple.js' // 新增的题目
 const writeFilePath = './README.md' // 写入地址
 
 console.log('脚本开始执行')
