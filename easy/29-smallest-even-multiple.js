@@ -5,7 +5,7 @@
  * @return {number}
  **/
 var smallestEvenMultiple = function (n) {
-	return n & 1 ? 2 * n : n // 位运算
+	return n & 1 ? n << 1 : n // 位运算
 	// return n % 2 ? 2 * n : n // 常规算法
 }
 
