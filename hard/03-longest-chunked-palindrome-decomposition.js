@@ -29,7 +29,7 @@ var longestDecomposition = function (text) {
 	} else if (lStr.length && rStr.length) {
 		res++
 	}
-	// return res
+	return res
 	// 法二 递归（性能差些）
 	// if (text.length === 0) return 0
 	// for (let i = 1, n = text.length; i <= n / 2; i++) {
