@@ -1,7 +1,8 @@
 const fs = require('fs')
 const readline = require('readline')
 
-const newFilePath = './middle/38-longest-string-chain.js' // 新增的题目
+const newFilePath =
+  './hard/05-maximum-fruits-harvested-after-at-most-k-steps.js' // 新增的题目
 const writeFilePath = './README.md' // 写入地址
 
 console.log('脚本开始执行')

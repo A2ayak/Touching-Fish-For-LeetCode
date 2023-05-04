@@ -89,5 +89,6 @@
 - [X] 02-至少有 1 位重复的数字（numbers-with-repeated-digits）[查看原题](https://leetcode-cn.com/problems/numbers-with-repeated-digits/)
 - [X] 03-段式回文（longest-chunked-palindrome-decomposition）[查看原题](https://leetcode-cn.com/problems/longest-chunked-palindrome-decomposition/)
 - [X] 04-按字典序排在最后的子串（last-substring-in-lexicographical-order）[查看原题](https://leetcode-cn.com/problems/last-substring-in-lexicographical-order/)
+- [X] 05-摘水果（maximum-fruits-harvested-after-at-most-k-steps）[查看原题](https://leetcode-cn.com/problems/maximum-fruits-harvested-after-at-most-k-steps/)
 
 ---
