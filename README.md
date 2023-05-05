@@ -43,6 +43,7 @@
 - [X] 28-统计共同度过的日子数（count-days-spent-together）[查看原题](https://leetcode-cn.com/problems/count-days-spent-together/)
 - [X] 29-最小偶倍数（smallest-even-multiple）[查看原题](https://leetcode-cn.com/problems/smallest-even-multiple/)
 - [X] 30-按身高排序（sort-the-people）[查看原题](https://leetcode-cn.com/problems/sort-the-people/)
+- [X] 31-处理用时最长的那个任务的员工（the-employee-that-worked-on-the-longest-task）[查看原题](https://leetcode-cn.com/problems/the-employee-that-worked-on-the-longest-task/)
 
 #### 中等（middle）
 - [X] 01-两数相加（add-two-numbers）[查看原题](https://leetcode-cn.com/problems/add-two-numbers/)
