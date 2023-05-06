@@ -84,6 +84,7 @@
 - [X] 36-分隔数组以得到最大和（partition-array-for-maximum-sum）[查看原题](https://leetcode-cn.com/problems/partition-array-for-maximum-sum/)
 - [X] 37-填充书架（filling-bookcase-shelves）[查看原题](https://leetcode-cn.com/problems/filling-bookcase-shelves/)
 - [X] 38-最长字符串链（longest-string-chain）[查看原题](https://leetcode-cn.com/problems/longest-string-chain/)
+- [X] 39-数青蛙（minimum-number-of-frogs-croaking）[查看原题](https://leetcode-cn.com/problems/minimum-number-of-frogs-croaking/)
 
 #### 困难（hard）
 - [X] 01-统计异或值在范围内的数对有多少（count-pairs-with-xor-in-a-range）[查看原题](https://leetcode.cn/problems/count-pairs-with-xor-in-a-range/)
