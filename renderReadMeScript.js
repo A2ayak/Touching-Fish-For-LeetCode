@@ -1,8 +1,7 @@
 const fs = require('fs')
 const readline = require('readline')
 
-const newFilePath =
-	'./middle/40-maximum-sum-of-two-non-overlapping-subarrays.js' // 新增的题目
+const newFilePath = './easy/32-number-of-valid-clock-times.js' // 新增的题目
 const writeFilePath = './README.md' // 写入地址
 
 console.log('脚本开始执行')
