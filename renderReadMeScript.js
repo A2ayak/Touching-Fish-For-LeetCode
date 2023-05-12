@@ -1,8 +1,7 @@
 const fs = require('fs')
 const readline = require('readline')
 
-const newFilePath =
-  './middle/41-binary-string-with-substrings-representing-1-to-n.js' // 新增的题目
+const newFilePath = './middle/42-smallest-integer-divisible-by-k.js' // 新增的题目
 const writeFilePath = './README.md' // 写入地址
 
 console.log('脚本开始执行')
