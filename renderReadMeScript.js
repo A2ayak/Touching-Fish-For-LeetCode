@@ -1,8 +1,7 @@
 const fs = require('fs')
 const readline = require('readline')
 
-const newFilePath =
-  './middle/43-flip-columns-for-maximum-number-of-equal-rows.js' // 新增的题目
+const newFilePath = './middle/44-largest-values-from-labels.js' // 新增的题目
 const writeFilePath = './README.md' // 写入地址
 
 console.log('脚本开始执行')

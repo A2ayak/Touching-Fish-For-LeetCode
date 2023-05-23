@@ -90,6 +90,7 @@
 - [X] 41-子串能表示从 1 到 N 数字的二进制串（binary-string-with-substrings-representing-1-to-n）[查看原题](https://leetcode-cn.com/problems/binary-string-with-substrings-representing-1-to-n/)
 - [X] 42-可被 K 整除的最小整数（smallest-integer-divisible-by-k）[查看原题](https://leetcode-cn.com/problems/smallest-integer-divisible-by-k/)
 - [X] 43-按列翻转得到最大值等行数（flip-columns-for-maximum-number-of-equal-rows）[查看原题](https://leetcode-cn.com/problems/flip-columns-for-maximum-number-of-equal-rows/)
+- [X] 44-受标签影响的最大值（largest-values-from-labels）[查看原题](https://leetcode-cn.com/problems/largest-values-from-labels/)
 
 #### 困难（hard）
 - [X] 01-统计异或值在范围内的数对有多少（count-pairs-with-xor-in-a-range）[查看原题](https://leetcode.cn/problems/count-pairs-with-xor-in-a-range/)
