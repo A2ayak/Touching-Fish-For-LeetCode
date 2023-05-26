@@ -45,6 +45,7 @@
 - [X] 30-按身高排序（sort-the-people）[查看原题](https://leetcode-cn.com/problems/sort-the-people/)
 - [X] 31-处理用时最长的那个任务的员工（the-employee-that-worked-on-the-longest-task）[查看原题](https://leetcode-cn.com/problems/the-employee-that-worked-on-the-longest-task/)
 - [X] 32-有效时间的数目（number-of-valid-clock-times）[查看原题](https://leetcode-cn.com/problems/number-of-valid-clock-times/)
+- [X] 33-差值数组不同的字符串（odd-string-difference）[查看原题](https://leetcode-cn.com/problems/odd-string-difference/)
 
 #### 中等（middle）
 - [X] 01-两数相加（add-two-numbers）[查看原题](https://leetcode-cn.com/problems/add-two-numbers/)
