@@ -46,6 +46,7 @@
 - [X] 31-处理用时最长的那个任务的员工（the-employee-that-worked-on-the-longest-task）[查看原题](https://leetcode-cn.com/problems/the-employee-that-worked-on-the-longest-task/)
 - [X] 32-有效时间的数目（number-of-valid-clock-times）[查看原题](https://leetcode-cn.com/problems/number-of-valid-clock-times/)
 - [X] 33-差值数组不同的字符串（odd-string-difference）[查看原题](https://leetcode-cn.com/problems/odd-string-difference/)
+- [X] 34-可被三整除的偶数的平均值（average-value-of-even-numbers-that-are-divisible-by-three）[查看原题](https://leetcode-cn.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/)
 
 #### 中等（middle）
 - [X] 01-两数相加（add-two-numbers）[查看原题](https://leetcode-cn.com/problems/add-two-numbers/)

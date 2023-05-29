@@ -1,7 +1,8 @@
 const fs = require('fs')
 const readline = require('readline')
 
-const newFilePath = './easy/33-odd-string-difference.js' // 新增的题目
+const newFilePath =
+  './easy/34-average-value-of-even-numbers-that-are-divisible-by-three.js' // 新增的题目
 const writeFilePath = './README.md' // 写入地址
 
 console.log('脚本开始执行')
