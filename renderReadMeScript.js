@@ -1,7 +1,7 @@
 const fs = require('fs')
 const readline = require('readline')
 
-const newFilePath = './middle/45-count-vowel-strings-in-ranges.js' // 新增的题目
+const newFilePath = './easy/35-apply-operations-to-an-array.js' // 新增的题目
 const writeFilePath = './README.md' // 写入地址
 
 console.log('脚本开始执行')
