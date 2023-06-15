@@ -95,6 +95,7 @@
 - [X] 43-按列翻转得到最大值等行数（flip-columns-for-maximum-number-of-equal-rows）[查看原题](https://leetcode-cn.com/problems/flip-columns-for-maximum-number-of-equal-rows/)
 - [X] 44-受标签影响的最大值（largest-values-from-labels）[查看原题](https://leetcode-cn.com/problems/largest-values-from-labels/)
 - [X] 45-统计范围内的元音字符串数（count-vowel-strings-in-ranges）[查看原题](https://leetcode-cn.com/problems/count-vowel-strings-in-ranges/)
+- [X] 46-比较字符串最小字母出现频次（compare-strings-by-frequency-of-the-smallest-character）[查看原题](https://leetcode-cn.com/problems/compare-strings-by-frequency-of-the-smallest-character/)
 
 #### 困难（hard）
 - [X] 01-统计异或值在范围内的数对有多少（count-pairs-with-xor-in-a-range）[查看原题](https://leetcode.cn/problems/count-pairs-with-xor-in-a-range/)
