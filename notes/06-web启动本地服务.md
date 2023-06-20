@@ -20,6 +20,6 @@ Windows Registry Editor Version 5.00
 
 ##### 执行后即可在浏览器输入 协议://参数 （myapp://params）即可尝试打开本地应用
 
-##### protocolcheck.js（https://github.com/ismailhabib/custom-protocol-detection）可用于检测本地注册表是否存在自定义协议，不准确，2023年实测不支持最新版本的chrome，npm上关于custom-protocol-detection的最新库在9个月以前。
+##### [protocolcheck.js](https://github.com/ismailhabib/custom-protocol-detection) 可用于检测本地注册表是否存在自定义协议，不准确，2023 年实测不支持最新版本的 chrome，npm 上关于 custom-protocol-detection 的最新库在 9 个月以前。
 
 ##### 附：[QQ 邮箱和百度网盘解决方案](https://juejin.cn/post/6903305494681780232#heading-3)
