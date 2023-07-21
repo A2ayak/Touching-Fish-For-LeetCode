@@ -56,3 +56,5 @@ if (!HTMLElement.prototype.insertAdjacentText) {
   }
 }
 ```
+
+### 3、下载 Excel 超过 2M 可能会下载失败（V45.0.2）
