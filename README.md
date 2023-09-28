@@ -99,6 +99,7 @@
 - [X] 46-比较字符串最小字母出现频次（compare-strings-by-frequency-of-the-smallest-character）[查看原题](https://leetcode-cn.com/problems/compare-strings-by-frequency-of-the-smallest-character/)
 - [X] 47-可被三整除的最大和（greatest-sum-divisible-by-three）[查看原题](https://leetcode-cn.com/problems/greatest-sum-divisible-by-three/)
 - [X] 48-环形子数组的最大和（maximum-sum-circular-subarray）[查看原题](https://leetcode-cn.com/problems/maximum-sum-circular-subarray/)
+- [X] 49-股票价格波动（stock-price-fluctuation）[查看原题](https://leetcode-cn.com/problems/stock-price-fluctuation/)
 
 #### 困难（hard）
 - [X] 01-统计异或值在范围内的数对有多少（count-pairs-with-xor-in-a-range）[查看原题](https://leetcode.cn/problems/count-pairs-with-xor-in-a-range/)
@@ -106,5 +107,6 @@
 - [X] 03-段式回文（longest-chunked-palindrome-decomposition）[查看原题](https://leetcode-cn.com/problems/longest-chunked-palindrome-decomposition/)
 - [X] 04-按字典序排在最后的子串（last-substring-in-lexicographical-order）[查看原题](https://leetcode-cn.com/problems/last-substring-in-lexicographical-order/)
 - [X] 05-摘水果（maximum-fruits-harvested-after-at-most-k-steps）[查看原题](https://leetcode-cn.com/problems/maximum-fruits-harvested-after-at-most-k-steps/)
+- [X] 06-花期内花的数目（number-of-flowers-in-full-bloom）[查看原题](https://leetcode-cn.com/problems/number-of-flowers-in-full-bloom/)
 
 ---

@@ -1,7 +1,7 @@
 const fs = require('fs')
 const readline = require('readline')
 
-const newFilePath = './middle/48-maximum-sum-circular-subarray.js' // 新增的题目
+const newFilePath = './middle/49-stock-price-fluctuation.js' // 新增的题目
 const writeFilePath = './README.md' // 写入地址
 
 console.log('脚本开始执行')
@@ -52,8 +52,7 @@ rl.on('close', function () {
   })
   rmrl.on('close', () => {
     console.log('空白行', blankArr)
-    const subtractIndex =
-      difficulty === 'easy' ? 3 : difficulty === 'middle' ? 2 : 1
+    const subtractIndex = difficulty === 'easy' ? 3 : difficulty === 'middle' ? 2 : 1
     const data = fs.readFileSync(writeFilePath, 'utf-8').split('\n')
     // 在第 blankArr[blankArr.length - subtractIndex] - 1 行插入数据
     console.log('插入行:', blankArr[blankArr.length - subtractIndex] - 1)
