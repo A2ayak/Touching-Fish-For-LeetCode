@@ -1,7 +1,7 @@
 const fs = require('fs')
 const readline = require('readline')
 
-const newFilePath = './middle/49-stock-price-fluctuation.js' // 新增的题目
+const newFilePath = './easy/37-split-with-minimum-sum.js' // 新增的题目
 const writeFilePath = './README.md' // 写入地址
 
 console.log('脚本开始执行')

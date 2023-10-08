@@ -49,6 +49,7 @@
 - [X] 34-可被三整除的偶数的平均值（average-value-of-even-numbers-that-are-divisible-by-three）[查看原题](https://leetcode-cn.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/)
 - [X] 35-对数组执行操作（apply-operations-to-an-array）[查看原题](https://leetcode-cn.com/problems/apply-operations-to-an-array/)
 - [X] 36-字符串相加（add-strings）[查看原题](https://leetcode-cn.com/problems/add-strings/)
+- [X] 37-最小和分割（split-with-minimum-sum）[查看原题](https://leetcode-cn.com/problems/split-with-minimum-sum/)
 
 #### 中等（middle）
 - [X] 01-两数相加（add-two-numbers）[查看原题](https://leetcode-cn.com/problems/add-two-numbers/)
