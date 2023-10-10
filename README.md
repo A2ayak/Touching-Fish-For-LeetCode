@@ -101,6 +101,7 @@
 - [X] 47-可被三整除的最大和（greatest-sum-divisible-by-three）[查看原题](https://leetcode-cn.com/problems/greatest-sum-divisible-by-three/)
 - [X] 48-环形子数组的最大和（maximum-sum-circular-subarray）[查看原题](https://leetcode-cn.com/problems/maximum-sum-circular-subarray/)
 - [X] 49-股票价格波动（stock-price-fluctuation）[查看原题](https://leetcode-cn.com/problems/stock-price-fluctuation/)
+- [X] 50-移动机器人（movement-of-robots）[查看原题](https://leetcode-cn.com/problems/movement-of-robots/)
 
 #### 困难（hard）
 - [X] 01-统计异或值在范围内的数对有多少（count-pairs-with-xor-in-a-range）[查看原题](https://leetcode.cn/problems/count-pairs-with-xor-in-a-range/)
