@@ -1,7 +1,7 @@
 const fs = require('fs')
 const readline = require('readline')
 
-const newFilePath = './easy/37-split-with-minimum-sum.js' // 新增的题目
+const newFilePath = './hard/06-number-of-flowers-in-full-bloom.js' // 新增的题目
 const writeFilePath = './README.md' // 写入地址
 
 console.log('脚本开始执行')
