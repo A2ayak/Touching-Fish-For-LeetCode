@@ -50,8 +50,10 @@
 - [X] 35-对数组执行操作（apply-operations-to-an-array）[查看原题](https://leetcode-cn.com/problems/apply-operations-to-an-array/)
 - [X] 36-字符串相加（add-strings）[查看原题](https://leetcode-cn.com/problems/add-strings/)
 - [X] 37-最小和分割（split-with-minimum-sum）[查看原题](https://leetcode-cn.com/problems/split-with-minimum-sum/)
+- [X] 38-根据规则将箱子分类（categorize-box-according-to-criteria）[查看原题](https://leetcode-cn.com/problems/categorize-box-according-to-criteria/)
 
 #### 中等（middle）
+
 - [X] 01-两数相加（add-two-numbers）[查看原题](https://leetcode-cn.com/problems/add-two-numbers/)
 - [X] 02-无重复字符的最长子串（longest-substring-without-repeating-characters）[查看原题](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
 - [X] 03-最长回文子串（longest-palindromic-substring）[查看原题](https://leetcode-cn.com/problems/longest-palindromic-substring/submissions/)
@@ -104,6 +106,7 @@
 - [X] 50-移动机器人（movement-of-robots）[查看原题](https://leetcode-cn.com/problems/movement-of-robots/)
 
 #### 困难（hard）
+
 - [X] 01-统计异或值在范围内的数对有多少（count-pairs-with-xor-in-a-range）[查看原题](https://leetcode.cn/problems/count-pairs-with-xor-in-a-range/)
 - [X] 02-至少有 1 位重复的数字（numbers-with-repeated-digits）[查看原题](https://leetcode-cn.com/problems/numbers-with-repeated-digits/)
 - [X] 03-段式回文（longest-chunked-palindrome-decomposition）[查看原题](https://leetcode-cn.com/problems/longest-chunked-palindrome-decomposition/)
