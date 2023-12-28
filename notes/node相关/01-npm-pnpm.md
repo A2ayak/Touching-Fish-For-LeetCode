@@ -39,3 +39,19 @@ npm --registry https://registry.npm.taobao.org install any-touch
 yarn add any-touch@latest --registry=https://registry.npmjs.org/
 pnpm --registry https://registry.npm.taobao.org install any-touch
 ```
+
+##### Windows 脚本(.bat)
+
+```shell
+@echo off
+setlocal
+
+rem 此处rem为注释，也可用::
+rem set registry=https://registry.npmjs.org/
+
+set registry=https://registry.npm.taobao.org/
+npm config set registry %registry%
+
+endlocal
+pause
+```
