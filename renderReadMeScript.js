@@ -1,7 +1,7 @@
 const fs = require('fs')
 const readline = require('readline')
 
-const newFilePath = './easy/38-categorize-box-according-to-criteria.js' // 新增的题目
+const newFilePath = './middle/51-remove-nodes-from-linked-list.js' // 新增的题目
 const writeFilePath = './README.md' // 写入地址
 
 console.log('脚本开始执行')

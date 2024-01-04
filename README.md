@@ -106,6 +106,7 @@
 - [X] 50-移动机器人（movement-of-robots）[查看原题](https://leetcode-cn.com/problems/movement-of-robots/)
 
 #### 困难（hard）
+- [X] 51-从链表中移除节点（remove-nodes-from-linked-list）[查看原题](https://leetcode-cn.com/problems/remove-nodes-from-linked-list/)
 
 - [X] 01-统计异或值在范围内的数对有多少（count-pairs-with-xor-in-a-range）[查看原题](https://leetcode.cn/problems/count-pairs-with-xor-in-a-range/)
 - [X] 02-至少有 1 位重复的数字（numbers-with-repeated-digits）[查看原题](https://leetcode-cn.com/problems/numbers-with-repeated-digits/)
