@@ -29,4 +29,4 @@ var countWords = function (words1, words2) {
 const words1 = ['leetcode', 'is', 'amazing', 'as', 'is'],
   words2 = ['amazing', 'leetcode', 'is'] // 2
 
-console.log(countWords(words1, words2))
+console.log('res', countWords(words1, words2))
