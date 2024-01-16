@@ -9,6 +9,14 @@
 14.16.0
 ```
 
+### 内网 verdaccio 安装不成功可尝试 👇
+
+##### 先删除 lock 文件（pnpm-lock.yaml、yarn-lock.yaml、package-lock.json 等），再执行以下命令，成功后有可能会覆盖部分原有依赖，重复试几次就能成功（npm 实在太抽象了
+
+```
+npm i xxx@1.0.0 --force --ignore-scripts
+```
+
 ##### 查看源
 
 ```
