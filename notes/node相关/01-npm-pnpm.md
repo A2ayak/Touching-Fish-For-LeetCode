@@ -28,9 +28,10 @@ pnpm get registry
 ##### 切换 TB 源
 
 ```
-npm config set registry https://registry.npm.taobao.org/
-yarn config set registry https://registry.npm.taobao.org/
-pnpm config set registry https://registry.npm.taobao.org/
+// 注意淘宝源已从https://registry.npm.taobao.org/ 改为 https://registry.npmmirror.com
+npm config set registry https://registry.npmmirror.com
+yarn config set registry https://registry.npmmirror.com
+pnpm config set registry https://registry.npmmirror.com
 ```
 
 ##### 还原
@@ -43,9 +44,9 @@ pnpm config set registry https://registry.npmjs.org/
 ##### 临时修改
 
 ```
-npm --registry https://registry.npm.taobao.org/ install any-touch
+npm --registry https://registry.npmmirror.com install any-touch
 yarn add any-touch@latest --registry=https://registry.npmjs.org/
-pnpm --registry https://registry.npm.taobao.org/ install any-touch
+pnpm --registry https://registry.npmmirror.com install any-touch
 ```
 
 ##### Windows 脚本(.bat)
@@ -57,7 +58,7 @@ setlocal
 rem 此处rem为注释，也可用::
 rem set registry=https://registry.npmjs.org/
 
-set registry=https://registry.npm.taobao.org/
+set registry=https://registry.npmmirror.com
 npm config set registry %registry%
 
 endlocal
