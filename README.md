@@ -106,6 +106,7 @@
 - [x] 49-股票价格波动（stock-price-fluctuation）[查看原题](https://leetcode-cn.com/problems/stock-price-fluctuation/)
 - [x] 50-移动机器人（movement-of-robots）[查看原题](https://leetcode-cn.com/problems/movement-of-robots/)
 - [x] 51-从链表中移除节点（remove-nodes-from-linked-list）[查看原题](https://leetcode-cn.com/problems/remove-nodes-from-linked-list/)
+- [X] 52-使二叉树所有路径值相等的最小代价（make-costs-of-paths-equal-in-a-binary-tree）[查看原题](https://leetcode-cn.com/problems/make-costs-of-paths-equal-in-a-binary-tree/)
 
 #### 困难（hard）
 
