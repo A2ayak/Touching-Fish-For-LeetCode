@@ -51,7 +51,7 @@
 - [x] 36-字符串相加（add-strings）[查看原题](https://leetcode-cn.com/problems/add-strings/)
 - [x] 37-最小和分割（split-with-minimum-sum）[查看原题](https://leetcode-cn.com/problems/split-with-minimum-sum/)
 - [x] 38-根据规则将箱子分类（categorize-box-according-to-criteria）[查看原题](https://leetcode-cn.com/problems/categorize-box-according-to-criteria/)
-- [X] 39-统计出现过一次的公共字符串（count-common-words-with-one-occurrence）[查看原题](https://leetcode-cn.com/problems/count-common-words-with-one-occurrence/)
+- [x] 39-统计出现过一次的公共字符串（count-common-words-with-one-occurrence）[查看原题](https://leetcode-cn.com/problems/count-common-words-with-one-occurrence/)
 
 #### 中等（middle）
 
@@ -106,7 +106,8 @@
 - [x] 49-股票价格波动（stock-price-fluctuation）[查看原题](https://leetcode-cn.com/problems/stock-price-fluctuation/)
 - [x] 50-移动机器人（movement-of-robots）[查看原题](https://leetcode-cn.com/problems/movement-of-robots/)
 - [x] 51-从链表中移除节点（remove-nodes-from-linked-list）[查看原题](https://leetcode-cn.com/problems/remove-nodes-from-linked-list/)
-- [X] 52-使二叉树所有路径值相等的最小代价（make-costs-of-paths-equal-in-a-binary-tree）[查看原题](https://leetcode-cn.com/problems/make-costs-of-paths-equal-in-a-binary-tree/)
+- [x] 52-使二叉树所有路径值相等的最小代价（make-costs-of-paths-equal-in-a-binary-tree）[查看原题](https://leetcode-cn.com/problems/make-costs-of-paths-equal-in-a-binary-tree/)
+- [ ] 53-检查数组是否存在有效划分（check-if-there-is-a-valid-partition-for-the-array）[查看原题](https://leetcode-cn.com/problems/check-if-there-is-a-valid-partition-for-the-array/)
 
 #### 困难（hard）
 

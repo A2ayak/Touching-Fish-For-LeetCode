@@ -1,7 +1,7 @@
 const fs = require('fs')
 const readline = require('readline')
 
-const newFilePath = './middle/52-make-costs-of-paths-equal-in-a-binary-tree.js' // 新增的题目
+const newFilePath = './middle/53-check-if-there-is-a-valid-partition-for-the-array.js' // 新增的题目
 const writeFilePath = './README.md' // 写入地址
 
 console.log('脚本开始执行')
