@@ -23,6 +23,7 @@ function findFriend(heightArr) {
 
   let res = new Array(len).fill(0)
   for (let i = 1; i < len; i++) {
+    debugger
     let item = heightArr[i]
     while (item > stack[stack.length - 1]) {
       res[temStack.pop()] = i
