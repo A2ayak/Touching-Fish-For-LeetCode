@@ -50,7 +50,7 @@ function divide(nums, average, i, k, res) {
       res[j] -= nums[i]
     }
   }
-
+}
 //   // 无法凑够平均数 则返回false
 //   return false
 // }
