@@ -52,6 +52,8 @@
 - [x] 37-最小和分割（split-with-minimum-sum）[查看原题](https://leetcode-cn.com/problems/split-with-minimum-sum/)
 - [x] 38-根据规则将箱子分类（categorize-box-according-to-criteria）[查看原题](https://leetcode-cn.com/problems/categorize-box-according-to-criteria/)
 - [x] 39-统计出现过一次的公共字符串（count-common-words-with-one-occurrence）[查看原题](https://leetcode-cn.com/problems/count-common-words-with-one-occurrence/)
+- [x] 40-杨辉三角（pascals-triangle）[查看原题](https://leetcode-cn.com/problems/pascals-triangle/)
+- [X] 41-买卖股票的最佳时机（best-time-to-buy-and-sell-stock）[查看原题](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
 
 #### 中等（middle）
 
@@ -108,6 +110,8 @@
 - [x] 51-从链表中移除节点（remove-nodes-from-linked-list）[查看原题](https://leetcode-cn.com/problems/remove-nodes-from-linked-list/)
 - [x] 52-使二叉树所有路径值相等的最小代价（make-costs-of-paths-equal-in-a-binary-tree）[查看原题](https://leetcode-cn.com/problems/make-costs-of-paths-equal-in-a-binary-tree/)
 - [ ] 53-检查数组是否存在有效划分（check-if-there-is-a-valid-partition-for-the-array）[查看原题](https://leetcode-cn.com/problems/check-if-there-is-a-valid-partition-for-the-array/)
+- [x] 54-划分为 k 个相等的子集（partition-to-k-equa54-partition-to-k-equal-sum-subsetsl-sum-subsets）[查看原题](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/)
+- [X] 55-完全平方数（perfect-squares）[查看原题](https://leetcode-cn.com/problems/perfect-squares/)
 
 #### 困难（hard）
 
