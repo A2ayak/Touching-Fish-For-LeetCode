@@ -112,6 +112,7 @@
 - [ ] 53-检查数组是否存在有效划分（check-if-there-is-a-valid-partition-for-the-array）[查看原题](https://leetcode-cn.com/problems/check-if-there-is-a-valid-partition-for-the-array/)
 - [x] 54-划分为 k 个相等的子集（partition-to-k-equa54-partition-to-k-equal-sum-subsetsl-sum-subsets）[查看原题](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/)
 - [X] 55-完全平方数（perfect-squares）[查看原题](https://leetcode-cn.com/problems/perfect-squares/)
+- [X] 57-从双倍数组中还原原数组（find-original-array-from-doubled-array）[查看原题](https://leetcode-cn.com/problems/find-original-array-from-doubled-array/)
 
 #### 困难（hard）
 
