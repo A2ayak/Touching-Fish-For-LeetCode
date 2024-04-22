@@ -30,3 +30,28 @@
 - configurePreviewServer
 - transformIndexHtml
 - handleHotUpdate
+
+## 钩子解释
+
+Vite 调用的兼容 RolLup 的钩子
+
+### 通用钩子
+
+构建阶段（开发阶段）
+
+- options：服务启动时被调用，可以改变 Rollup 选项
+- buildStart：每次开始构建时调用
+- resolveId：每个传入模块请求的时候调用，传入自定义 resolve 函数
+- Load：每个传入模块请求的时候调用，自定义加载内容
+- transform：每个传入模块请求的时候调用，对文件代码进行转换
+- buiLdEnd：构建阶段结束时调用
+
+输出阶段（生产环境调用）
+
+- outputOptions：接收输出参数
+- renderStart：每次 bundle.generate 和 bundle.write 调用时被触发
+- augmentChunkHash:chunk 增加 hash
+- renderChunk：转译单个 chunk 时调用，RolLup 输出每个 chunk 都会调用
+- generateBundle：在 bundle.write 之前立即触发
+- writeBundLe：调用 bundle.write，等所有的 chunk 都写入文件之后调用
+- closeBundle：服务器关闭时被调用
