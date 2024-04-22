@@ -7,3 +7,7 @@ console.log(strBracketMatch.match(regBracketMatch))
 const regValidatePsw = /^(?=.*[a-km-np-z])(?=.*[A-HJ-NR-Z])(?=.*[!@#$%^&*+=.<>?])(?!.*[o0Il]).{8,}$/g
 const strValidatePsw = 'Test@#123'
 console.log(regValidatePsw.test(strValidatePsw))
+
+// 3、最新版本匹配纯中文
+const checkZhReg = /\p{Unified_Ideograph}+/u
+console.log(checkZhReg.test('asdad'))
