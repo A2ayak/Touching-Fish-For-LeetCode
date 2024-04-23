@@ -1,5 +1,5 @@
 /**
- * 从双倍数组中还原原数组
+ * 组合总和 Ⅳ
  * https://leetcode.cn/problems/combination-sum-iv/
  * @param {number[]} nums
  * @param {number} target
