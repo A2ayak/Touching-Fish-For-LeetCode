@@ -31,7 +31,7 @@ module.exports = function buildTree(arr) {
       break
     }
 
-    // 先从节点数组中取一个元素 转化为节点 拼接为左叶子
+    // 先从节点数组中取一个元素 转化为节点 拼接为左叶子，此处排除null节点
     const leftNode = arr.shift()
     let left = leftNode ? new TreeNode(leftNode) : null
     node.left = left
