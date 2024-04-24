@@ -114,7 +114,8 @@
 - [x] 55-完全平方数（perfect-squares）[查看原题](https://leetcode-cn.com/problems/perfect-squares/)
 - [x] 57-从双倍数组中还原原数组（find-original-array-from-doubled-array）[查看原题](https://leetcode-cn.com/problems/find-original-array-from-doubled-array/)
 - [x] 58-组合总和 Ⅳ（combination-sum-iv）[查看原题](https://leetcode-cn.com/problems/combination-sum-iv/)
-- [X] 59-螺旋矩阵（spiral-matrix）[查看原题](https://leetcode-cn.com/problems/spiral-matrix/)
+- [x] 59-螺旋矩阵（spiral-matrix）[查看原题](https://leetcode-cn.com/problems/spiral-matrix/)
+- [ ] 60-感染二叉树需要的总时间（amount-of-time-for-binary-tree-to-be-infected）[查看原题](https://leetcode-cn.com/problems/amount-of-time-for-binary-tree-to-be-infected/)
 
 #### 困难（hard）
 
