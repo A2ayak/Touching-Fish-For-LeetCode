@@ -54,6 +54,7 @@
 - [x] 39-统计出现过一次的公共字符串（count-common-words-with-one-occurrence）[查看原题](https://leetcode-cn.com/problems/count-common-words-with-one-occurrence/)
 - [x] 40-杨辉三角（pascals-triangle）[查看原题](https://leetcode-cn.com/problems/pascals-triangle/)
 - [x] 41-买卖股票的最佳时机（best-time-to-buy-and-sell-stock）[查看原题](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
+- [X] 42-总行驶距离（total-distance-traveled）[查看原题](https://leetcode-cn.com/problems/total-distance-traveled/)
 
 #### 中等（middle）
 
