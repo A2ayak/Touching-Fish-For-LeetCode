@@ -55,6 +55,7 @@
 - [x] 40-杨辉三角（pascals-triangle）[查看原题](https://leetcode-cn.com/problems/pascals-triangle/)
 - [x] 41-买卖股票的最佳时机（best-time-to-buy-and-sell-stock）[查看原题](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
 - [X] 42-总行驶距离（total-distance-traveled）[查看原题](https://leetcode-cn.com/problems/total-distance-traveled/)
+- [X] 43-查询网格图中每一列的宽度（find-the-width-of-columns-of-a-grid）[查看原题](https://leetcode-cn.com/problems/find-the-width-of-columns-of-a-grid/)
 
 #### 中等（middle）
 
