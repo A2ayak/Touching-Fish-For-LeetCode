@@ -9,7 +9,7 @@
  * @param {string} s
  * @return {number}
  */
-var lengthOfLongestSubstring = function(s) {
+var lengthOfLongestSubstring = function (s) {
   let max = 0
   let minIndex = 0
   for (let i = 0; i < s.length; i++) {
@@ -21,4 +21,21 @@ var lengthOfLongestSubstring = function(s) {
     }
   }
   return max
-};
+}
+
+var lengthOfLongestSubstring1 = function (s) {
+  let res = 0
+  let arr = []
+
+  for (let c of s) {
+    while (arr.includes(c)) {
+      arr.shift()
+    }
+    arr.push(c)
+    res = Math.max(res, arr.length)
+  }
+
+  return res
+}
+
+console.log(lengthOfLongestSubstring1('abcabcbc'))

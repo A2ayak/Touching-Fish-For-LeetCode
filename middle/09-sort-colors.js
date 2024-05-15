@@ -25,11 +25,14 @@
 //   return nums
 // };
 
-var sortColors2 = function(nums) {
+var sortColors2 = function (nums) {
   const n = nums.length
-  let p1 = 0, p2 = n - 1, cur = 0
+  let p1 = 0,
+    p2 = n - 1,
+    cur = 0
   // const swap = (arr, i, j) => [arr[i], arr[j]] = [arr[j], arr[i]]
   while (cur <= p2) {
+    debugger
     if (nums[cur] === 0) {
       nums[cur] = nums[p1]
       nums[p1] = 0
@@ -43,7 +46,7 @@ var sortColors2 = function(nums) {
       cur++
     }
   }
-  // return nums
-};
+  return nums
+}
 
-console.log(sortColors2([2,0,2,1,1,0]));
+console.log(sortColors2([2, 0, 2, 1, 1, 0]))

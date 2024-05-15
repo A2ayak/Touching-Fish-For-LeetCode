@@ -4,13 +4,13 @@
  * @param {number[]} arr
  * @return {void} Do not return anything, modify arr in-place instead.
  */
-/** 
+/**
  * 输入：[1,0,2,3,0,4,5,0]
  * 输出：null
  * 解释：调用函数后，输入的数组将被修改为：[1,0,0,2,3,0,0,4]
  */
 
-var duplicateZeros = function(arr) {
+var duplicateZeros = function (arr) {
   // const len = arr.length
   // for (let i = 0; i < len; i++) {
   //   if (arr[i] === 0) {
@@ -24,7 +24,7 @@ var duplicateZeros = function(arr) {
   let i = 0
   let j = arr.length - 1
   let k = arr.length - 1
-  while(i < j) {
+  while (i < j) {
     if (arr[i++] === 0) {
       j--
     }
@@ -33,13 +33,24 @@ var duplicateZeros = function(arr) {
   if (i === j && arr[i] === 0) {
     arr[k--] = arr[j--]
   }
-  while(k !== j) {
+  while (k !== j) {
     if (arr[j] === 0) {
       arr[k--] = 0
     }
     arr[k--] = arr[j--]
   }
-  console.log(arr);
-};
+  console.log(arr)
+}
 
-console.log(duplicateZeros([1,0,2,3,0,4,5,0]));
+// 法二
+// var duplicateZeros = function (arr) {
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] === 0) {
+//       arr.splice(i, 0, 0)
+//       i++
+//       arr.pop()
+//     }
+//   }
+// }
+
+console.log(duplicateZeros([1, 0, 2, 3, 0, 4, 5, 0]))
