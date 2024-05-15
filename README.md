@@ -56,6 +56,7 @@
 - [x] 41-买卖股票的最佳时机（best-time-to-buy-and-sell-stock）[查看原题](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
 - [X] 42-总行驶距离（total-distance-traveled）[查看原题](https://leetcode-cn.com/problems/total-distance-traveled/)
 - [X] 43-查询网格图中每一列的宽度（find-the-width-of-columns-of-a-grid）[查看原题](https://leetcode-cn.com/problems/find-the-width-of-columns-of-a-grid/)
+- [X] 44-反转字符串中的元音字母（reverse-vowels-of-a-string）[查看原题](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)
 
 #### 中等（middle）
 
@@ -118,6 +119,9 @@
 - [x] 58-组合总和 Ⅳ（combination-sum-iv）[查看原题](https://leetcode-cn.com/problems/combination-sum-iv/)
 - [x] 59-螺旋矩阵（spiral-matrix）[查看原题](https://leetcode-cn.com/problems/spiral-matrix/)
 - [ ] 60-感染二叉树需要的总时间（amount-of-time-for-binary-tree-to-be-infected）[查看原题](https://leetcode-cn.com/problems/amount-of-time-for-binary-tree-to-be-infected/)
+- [X] 61-单词拆分（word-break）[查看原题](https://leetcode-cn.com/problems/word-break/)
+- [X] 62-最长递增子序列（longest-increasing-subsequence）[查看原题](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
+- [X] 63-乘积最大子数组（maximum-product-subarray）[查看原题](https://leetcode-cn.com/problems/maximum-product-subarray/)
 
 #### 困难（hard）
 
