@@ -57,6 +57,7 @@
 - [X] 42-总行驶距离（total-distance-traveled）[查看原题](https://leetcode-cn.com/problems/total-distance-traveled/)
 - [X] 43-查询网格图中每一列的宽度（find-the-width-of-columns-of-a-grid）[查看原题](https://leetcode-cn.com/problems/find-the-width-of-columns-of-a-grid/)
 - [X] 44-反转字符串中的元音字母（reverse-vowels-of-a-string）[查看原题](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)
+- [X] 45-合并两个有序数组（merge-sorted-array）[查看原题](https://leetcode-cn.com/problems/merge-sorted-array/)
 
 #### 中等（middle）
 
