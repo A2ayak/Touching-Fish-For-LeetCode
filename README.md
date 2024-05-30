@@ -122,6 +122,7 @@
 - [X] 61-单词拆分（word-break）[查看原题](https://leetcode-cn.com/problems/word-break/)
 - [X] 62-最长递增子序列（longest-increasing-subsequence）[查看原题](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
 - [X] 63-乘积最大子数组（maximum-product-subarray）[查看原题](https://leetcode-cn.com/problems/maximum-product-subarray/)
+- [X] 64-找出出现至少三次的最长特殊子字符串 II（find-longest-special-substring-that-occurs-thrice-ii）[查看原题](https://leetcode-cn.com/problems/find-longest-special-substring-that-occurs-thrice-ii/)
 
 #### 困难（hard）
 
