@@ -54,10 +54,10 @@
 - [x] 39-统计出现过一次的公共字符串（count-common-words-with-one-occurrence）[查看原题](https://leetcode-cn.com/problems/count-common-words-with-one-occurrence/)
 - [x] 40-杨辉三角（pascals-triangle）[查看原题](https://leetcode-cn.com/problems/pascals-triangle/)
 - [x] 41-买卖股票的最佳时机（best-time-to-buy-and-sell-stock）[查看原题](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
-- [X] 42-总行驶距离（total-distance-traveled）[查看原题](https://leetcode-cn.com/problems/total-distance-traveled/)
-- [X] 43-查询网格图中每一列的宽度（find-the-width-of-columns-of-a-grid）[查看原题](https://leetcode-cn.com/problems/find-the-width-of-columns-of-a-grid/)
-- [X] 44-反转字符串中的元音字母（reverse-vowels-of-a-string）[查看原题](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)
-- [X] 45-合并两个有序数组（merge-sorted-array）[查看原题](https://leetcode-cn.com/problems/merge-sorted-array/)
+- [x] 42-总行驶距离（total-distance-traveled）[查看原题](https://leetcode-cn.com/problems/total-distance-traveled/)
+- [x] 43-查询网格图中每一列的宽度（find-the-width-of-columns-of-a-grid）[查看原题](https://leetcode-cn.com/problems/find-the-width-of-columns-of-a-grid/)
+- [x] 44-反转字符串中的元音字母（reverse-vowels-of-a-string）[查看原题](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)
+- [x] 45-合并两个有序数组（merge-sorted-array）[查看原题](https://leetcode-cn.com/problems/merge-sorted-array/)
 
 #### 中等（middle）
 
@@ -120,10 +120,11 @@
 - [x] 58-组合总和 Ⅳ（combination-sum-iv）[查看原题](https://leetcode-cn.com/problems/combination-sum-iv/)
 - [x] 59-螺旋矩阵（spiral-matrix）[查看原题](https://leetcode-cn.com/problems/spiral-matrix/)
 - [ ] 60-感染二叉树需要的总时间（amount-of-time-for-binary-tree-to-be-infected）[查看原题](https://leetcode-cn.com/problems/amount-of-time-for-binary-tree-to-be-infected/)
-- [X] 61-单词拆分（word-break）[查看原题](https://leetcode-cn.com/problems/word-break/)
-- [X] 62-最长递增子序列（longest-increasing-subsequence）[查看原题](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
-- [X] 63-乘积最大子数组（maximum-product-subarray）[查看原题](https://leetcode-cn.com/problems/maximum-product-subarray/)
-- [X] 64-找出出现至少三次的最长特殊子字符串 II（find-longest-special-substring-that-occurs-thrice-ii）[查看原题](https://leetcode-cn.com/problems/find-longest-special-substring-that-occurs-thrice-ii/)
+- [x] 61-单词拆分（word-break）[查看原题](https://leetcode-cn.com/problems/word-break/)
+- [x] 62-最长递增子序列（longest-increasing-subsequence）[查看原题](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
+- [x] 63-乘积最大子数组（maximum-product-subarray）[查看原题](https://leetcode-cn.com/problems/maximum-product-subarray/)
+- [x] 64-找出出现至少三次的最长特殊子字符串 II（find-longest-special-substring-that-occurs-thrice-ii）[查看原题](https://leetcode-cn.com/problems/find-longest-special-substring-that-occurs-thrice-ii/)
+- [x] 65-买卖股票的最佳时机 II（best-time-to-buy-and-sell-stock-ii）[查看原题](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
 
 #### 困难（hard）
 
