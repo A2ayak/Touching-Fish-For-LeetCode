@@ -58,6 +58,7 @@
 - [x] 43-查询网格图中每一列的宽度（find-the-width-of-columns-of-a-grid）[查看原题](https://leetcode-cn.com/problems/find-the-width-of-columns-of-a-grid/)
 - [x] 44-反转字符串中的元音字母（reverse-vowels-of-a-string）[查看原题](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)
 - [x] 45-合并两个有序数组（merge-sorted-array）[查看原题](https://leetcode-cn.com/problems/merge-sorted-array/)
+- [X] 46-分糖果 II（distribute-candies-to-people）[查看原题](https://leetcode-cn.com/problems/distribute-candies-to-people/)
 
 #### 中等（middle）
 
