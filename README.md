@@ -126,6 +126,7 @@
 - [x] 63-乘积最大子数组（maximum-product-subarray）[查看原题](https://leetcode-cn.com/problems/maximum-product-subarray/)
 - [x] 64-找出出现至少三次的最长特殊子字符串 II（find-longest-special-substring-that-occurs-thrice-ii）[查看原题](https://leetcode-cn.com/problems/find-longest-special-substring-that-occurs-thrice-ii/)
 - [x] 65-买卖股票的最佳时机 II（best-time-to-buy-and-sell-stock-ii）[查看原题](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
+- [X] 66-生成特殊数字的最少操作（minimum-operations-to-make-a-special-number）[查看原题](https://leetcode-cn.com/problems/minimum-operations-to-make-a-special-number/)
 
 #### 困难（hard）
 
