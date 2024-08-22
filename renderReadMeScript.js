@@ -1,7 +1,7 @@
 const fs = require('fs')
 const readline = require('readline')
 
-const newFilePath = './middle/66-minimum-operations-to-make-a-special-number.js' // 新增的题目
+const newFilePath = './middle/67-compact-object.js' // 新增的题目
 const writeFilePath = './README.md' // 写入地址
 
 console.log('脚本开始执行')
