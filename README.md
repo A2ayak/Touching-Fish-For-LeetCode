@@ -60,6 +60,7 @@
 - [X] 45-合并两个有序数组（merge-sorted-array）[查看原题](https://leetcode-cn.com/problems/merge-sorted-array/)
 - [X] 46-分糖果 II（distribute-candies-to-people）[查看原题](https://leetcode-cn.com/problems/distribute-candies-to-people/)
 - [X] 47-棒球游戏（baseball-game）[查看原题](https://leetcode-cn.com/problems/baseball-game/)
+- [X] 48-两个字符串的排列差（permutation-difference-between-two-strings）[查看原题](https://leetcode-cn.com/problems/permutation-difference-between-two-strings/)
 
 #### 中等（middle）
 
