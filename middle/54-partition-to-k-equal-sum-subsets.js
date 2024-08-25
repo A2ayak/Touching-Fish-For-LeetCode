@@ -5,52 +5,53 @@
  * @param {number} k
  * @return {boolean}
  */
-var canPartitionKSubsets = function (nums, k) {
-  // 分组数大于数组长度 为false
-  if (k > nums.length) return false
-  // 只分一组 则必定可以
-  if (k == 1) return true
-  // 分组数和数组长度相等 则数组每一项都相等
-  if (k == nums.length) {
-    let f = nums[0]
-    return nums.every((i) => i == f)
-  }
 
-  // 求和
-  let sum = nums.reduce((a, b) => a + b)
-  // 获取平均数average
-  let ave = sum / k
-  // 排序
-  nums.sort((a, b) => b - a)
+// 法一：超时
+// var canPartitionKSubsets = function (nums, k) {
+//   // 分组数大于数组长度 为false
+//   if (k > nums.length) return false
+//   // 只分一组 则必定可以
+//   if (k == 1) return true
+//   // 分组数和数组长度相等 则数组每一项都相等
+//   if (k == nums.length) {
+//     let f = nums[0]
+//     return nums.every((i) => i == f)
+//   }
 
-  // 数组任意一项大于平均数 返回false
-  if (nums.some((i) => i > ave)) return false
+//   // 求和
+//   let sum = nums.reduce((a, b) => a + b)
+//   // 获取平均数average
+//   let ave = sum / k
+//   // 排序
+//   nums.sort((a, b) => b - a)
 
-  // 创建一个数组res存放每个分配的组合的和
-  let res = new Array(k).fill(0)
+//   // 数组任意一项大于平均数 返回false
+//   if (nums.some((i) => i > ave)) return false
 
-  return divide(nums, ave, 0, k, res)
-}
+//   // 创建一个数组res存放每个分配的组合的和
+//   let res = new Array(k).fill(0)
 
-function divide(nums, average, i, k, res) {
-  // 如果对nums的遍历走完最后一个数 则说明所有的数都组合凑成平均数 返回true
-  if (i == nums.length) return true
-  // 遍历存放分组的数组
-  for (let j = 0; j < k; j++) {
-    // 如果该分组的和小于平均数 且 【目前该分组的和】加上【将加进分组的数】的【和】仍小于等于平均数
-    if (res[j] < average && nums[i] + res[j] <= average) {
-      // 将该数加进该分组
-      res[j] += nums[i]
-      // 递归判断【数组】是否还有【数】能与【该分组目前和】凑够【平均数】
-      if (divide(nums, average, i + 1, k, res)) {
-        // 能凑则返回true
-        return true
-      }
-      // 否则将该数从该组合中移除
-      res[j] -= nums[i]
-    }
-  }
-}
+//   return divide(nums, ave, 0, k, res)
+// }
+
+// function divide(nums, average, i, k, res) {
+//   // 如果对nums的遍历走完最后一个数 则说明所有的数都组合凑成平均数 返回true
+//   if (i == nums.length) return true
+//   // 遍历存放分组的数组
+//   for (let j = 0; j < k; j++) {
+//     // 如果该分组的和小于平均数 且 【目前该分组的和】加上【将加进分组的数】的【和】仍小于等于平均数
+//     if (res[j] < average && nums[i] + res[j] <= average) {
+//       // 将该数加进该分组
+//       res[j] += nums[i]
+//       // 递归判断【数组】是否还有【数】能与【该分组目前和】凑够【平均数】
+//       if (divide(nums, average, i + 1, k, res)) {
+//         // 能凑则返回true
+//         return true
+//       }
+//       // 否则将该数从该组合中移除
+//       res[j] -= nums[i]
+//     }
+//   }
 //   // 无法凑够平均数 则返回false
 //   return false
 // }
@@ -151,55 +152,59 @@ function divide(nums, average, i, k, res) {
 // }
 
 // 法4
-// var canPartitionKSubsets = function (nums, k) {
-//   // 计算总和
-//   const total = nums.reduce((a, b) => a + b)
+var canPartitionKSubsets = function (nums, k) {
+  // 计算总和
+  const total = nums.reduce((a, b) => a + b)
 
-//   // 如果不能均分，直接返回false
-//   if (total % k) return false
+  // 如果不能均分，直接返回false
+  if (total % k !== 0) return false
 
-//   // 计算每一份的大小
-//   const mid = total / k
+  nums.sort((a, b) => b - a)
 
-//   // 有多少个数字
-//   const len = nums.length
+  // 计算每一份的大小
+  const mid = total / k
 
-//   /*
-//    * 用k个容器来添加数字
-//    * 添加的规则：当当前遍历的数字和容器的数字加起来比平均的数字小，当前遍历的数字就可以添加到该容器中
-//    * 退出的规则：1.数字遍历完了，表示所有的数字都添加进去了，返回true；2.当前遍历的数字没有添加进任何一个容器，返回false
-//    */
+  // 有多少个数字
+  const len = nums.length
 
-//   const arr = new Array(k).fill(0)
+  /*
+   * 用k个容器来添加数字
+   * 添加的规则：当当前遍历的数字和容器的数字加起来比平均的数字小，当前遍历的数字就可以添加到该容器中
+   * 退出的规则：1.数字遍历完了，表示所有的数字都添加进去了，返回true；2.当前遍历的数字没有添加进任何一个容器，返回false
+   */
 
-//   /*
-//    * dps函数，i代表当前遍历的数字下标，arr代表遍历到该下标时的容器现状
-//    */
+  const arr = new Array(k).fill(0)
 
-//   function dps(i, arr) {
-//     debugger
-//     if (i >= len) return true
-//     const num = nums[i]
-//     let res = false
-//     // 缓存，缓存该环节已经添加过的相同的容器，比如该环节有3个容器的数字之和1，我们已经用过其中一个容器了，再继续用其他的容器，造成的结果和和第一个结果相同，会造成无用的重复递归
-//     const set = new Set()
-//     for (let j = 0; j < k; j++) {
-//       const count = arr[j]
-//       if (set.has(count) || count + num > mid || res) continue
-//       set.add(count)
-//       arr[j] += num
-//       // 添加完，继续添加下一个数字
-//       res = dps(i + 1, arr.slice())
+  /*
+   * dps函数，i代表当前遍历的数字下标，arr代表遍历到该下标时的容器现状
+   */
 
-//       // 将该容器复原，继续寻找下一个可以添加的容器
-//       arr[j] -= num
-//     }
-//     return res
-//   }
-//   return dps(0, arr)
-// }
+  function dps(i, arr) {
+    debugger
+    if (i >= len) return true
+    const num = nums[i]
+    let res = false
+    // 缓存，缓存该环节已经添加过的相同的容器，比如该环节有3个容器的数字之和1，我们已经用过其中一个容器了，再继续用其他的容器，造成的结果和和第一个结果相同，会造成无用的重复递归
+    const set = new Set()
+    for (let j = 0; j < k; j++) {
+      const count = arr[j]
+      if (set.has(count) || count + num > mid || res) continue
+      set.add(count)
+      arr[j] += num
+      // 添加完，继续添加下一个数字
+      res = dps(i + 1, arr.slice())
 
-const nums = [4, 3, 2, 3, 5, 2, 1],
+      // 将该容器复原，继续寻找下一个可以添加的容器
+      arr[j] -= num
+    }
+    return res
+  }
+  return dps(0, arr)
+}
+
+// const nums = [4, 3, 2, 3, 5, 2, 1],
+//   k = 4
+const nums = [2, 2, 2, 2, 3, 4, 5],
   k = 4
 
 console.log(canPartitionKSubsets(nums, k))
