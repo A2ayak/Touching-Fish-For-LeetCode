@@ -62,6 +62,8 @@
 - [X] 47-棒球游戏（baseball-game）[查看原题](https://leetcode-cn.com/problems/baseball-game/)
 - [X] 48-两个字符串的排列差（permutation-difference-between-two-strings）[查看原题](https://leetcode-cn.com/problems/permutation-difference-between-two-strings/)
 - [X] 49-判断矩阵是否满足条件（check-if-grid-satisfies-conditions）[查看原题](https://leetcode-cn.com/problems/check-if-grid-satisfies-conditions/)
+- [X] 50-构造相同颜色的正方形（make-a-square-with-the-same-color）[查看原题](https://leetcode-cn.com/problems/make-a-square-with-the-same-color/)
+- [X] 51-在既定时间做作业的学生人数（number-of-students-doing-homework-at-a-given-time）[查看原题](https://leetcode-cn.com/problems/number-of-students-doing-homework-at-a-given-time/)
 
 #### 中等（middle）
 
