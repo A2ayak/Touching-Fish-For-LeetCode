@@ -8,7 +8,9 @@
    `sudo gitlab-ctl status`
 5. 设置 GitLab 开机启动：
    GitLab 通常会在安装时自动设置为开机启动。如果需要手动设置，可以使用以下命令：
-   `sudo systemctl enable gitlab-runsvdir`
+   ```
+   sudo systemctl enable gitlab-runsvdir
+   ```
 6. 禁用 GitLab 开机启动：
    `sudo systemctl disablegitlab-runsvdir`
 
