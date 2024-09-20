@@ -50,10 +50,11 @@ sudo systemctl start gitlab-runsvdir.service
 sudo gitlab-ctl start
 ```
 
-最终解决 
+最终解决
+
 ```bash
 sudo systemctl restart gitlab-runsvdir
 # sudo systemctl disable plymouth-quit-wait.service
 ```
 
-(参考资料-gitlab forum)[https://forum.gitlab.com/t/plymouth-quit-wait-service-preventing-gitlab-runsvdir-service-possible/48442]
+[参考资料-gitlab forum](https://forum.gitlab.com/t/plymouth-quit-wait-service-preventing-gitlab-runsvdir-service-possible/48442)
