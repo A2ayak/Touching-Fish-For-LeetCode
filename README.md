@@ -64,6 +64,7 @@
 - [X] 49-判断矩阵是否满足条件（check-if-grid-satisfies-conditions）[查看原题](https://leetcode-cn.com/problems/check-if-grid-satisfies-conditions/)
 - [X] 50-构造相同颜色的正方形（make-a-square-with-the-same-color）[查看原题](https://leetcode-cn.com/problems/make-a-square-with-the-same-color/)
 - [X] 51-在既定时间做作业的学生人数（number-of-students-doing-homework-at-a-given-time）[查看原题](https://leetcode-cn.com/problems/number-of-students-doing-homework-at-a-given-time/)
+- [X] 52-找到小镇的法官（find-the-town-judge）[查看原题](https://leetcode-cn.com/problems/find-the-town-judge/)
 
 #### 中等（middle）
 
