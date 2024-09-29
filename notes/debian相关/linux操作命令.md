@@ -13,5 +13,8 @@ lsof -i -P -n
 netstat -tuln
 # 所有正在监听的端口及其对应的服务
 ss -tuln
+# 系统资源
+top
+
 
 ```
