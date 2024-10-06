@@ -134,6 +134,7 @@
 - [X] 65-买卖股票的最佳时机 II（best-time-to-buy-and-sell-stock-ii）[查看原题](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
 - [X] 66-生成特殊数字的最少操作（minimum-operations-to-make-a-special-number）[查看原题](https://leetcode-cn.com/problems/minimum-operations-to-make-a-special-number/)
 - [X] 67-精简对象（compact-object）[查看原题](https://leetcode-cn.com/problems/compact-object/)
+- [X] 68-加油站（gas-station）[查看原题](https://leetcode-cn.com/problems/gas-station/)
 
 #### 困难（hard）
 
