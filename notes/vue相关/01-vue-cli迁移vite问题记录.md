@@ -23,12 +23,10 @@
    import vueJsx from '@vitejs/plugin-vue2-jsx'
    import { resolve } from 'path'
    // import Components from 'unplugin-vue-components/vite'
-   // import VueSetupExtend from 'vite-plugin-vue-setup-extend' // 支持setup内写name属性，利于keepAlive
-   // import AutoImport from 'unplugin-auto-import/vite' // 自动导入某些包的Api, 生成auto-import.d.ts
    // import { ElementUiResolver } from 'unplugin-vue-components/resolvers'
    // import { createSvgIconsPlugin } from 'vite-plugin-svg-icons'
-   // import { viteMockServe } from 'vite-plugin-mock'
    import requireTransform from 'vite-plugin-require-transform'
+   // import commonjs from 'vite-plugin-commonjs'
 
    // https://vitejs.dev/config/
    export default defineConfig(({ command, mode }) => {
@@ -40,11 +38,6 @@
        server: {
          host: true,
          port: VITE_APP_PORT,
-         // headers: {
-         //   'Access-Control-Allow-Origin': '*',
-         //   'Access-Control-Allow-Headers': '*',
-         //   'Access-Control-Allow-Methods': '*'
-         // },
          proxy: {
            // '/api': {
            //   target: 'http://192.168.1.1',
@@ -55,31 +48,31 @@
        plugins: [
          vue(),
          vueJsx(),
+         // commonjs({
+         //   filter(id) {
+         //     // 默认会排除 `node_modules`，所以必须显式的包含它explicitly
+         //     // https://github.com/vite-plugin/vite-plugin-commonjs/blob/v0.7.0/src/index.ts#L125-L127
+         //     // if (id.includes('xxx')) {
+         //     //   return true
+         //     // }
+         //   }
+         // }),
          // 解决部分require引入问题
          requireTransform({
            fileRegex: /.vue$|.png$/
          })
-         // VueSetupExtend(),
+
          // createSvgIconsPlugin({
          //   iconDirs: [resolve(__dirname, 'src/assets/svg')],
          //   symbolId: 'icon-[dir]-[name]'
          // }),
-         // AutoImport({
-         //   // dts: 'src/auto-imports.d.ts', // 可以自定义文件生成的位置，默认是根目录下
-         //   // 自动导入 Vue 相关函数，如：ref, reactive, toRef 等
-         //   imports: ['vue', 'pinia', 'vue-router']
-         // }),
          // Components({
-         //   dirs: ['src/components/globalComp'],
-         //   resolvers: [
-         //     ElementUiResolver({
-         //       // importStyle: false
-         //       // exclude: ['ADatePicker', 'ARangePicker']
-         //     })
-         //   ]
-         // })
-         // createStyleImportPlugin({
-         //   resolves: [VxeTableResolve()]
+         //   dirs: ['src/components/globalComp']
+         //   // resolvers: [
+         //   //   ElementUiResolver({
+         //   //     // importStyle: false
+         //   //   })
+         //   // ]
          // })
        ],
        resolve: {
@@ -87,7 +80,8 @@
            '@': resolve(__dirname, 'src'),
            src: resolve(__dirname, '../src'),
            static: resolve(__dirname, '../static'),
-           api: resolve(__dirname, '../src/api')
+           api: resolve(__dirname, '../src/api'),
+           vue: 'vue/dist/vue.esm.js' // 缺少此项el-table渲染将有问题
          },
          extensions: ['.js', '.jsx', '.json', '.png', '.vue']
        },
@@ -106,31 +100,34 @@
          include: /src\/.*\.jsx?$/,
          exclude: []
        },
-       // optimizeDeps: {
-       //   esbuildOptions: {
-       //     loader: { '.js': 'jsx' },
-       //     plugins: [
-       //       {
-       //         name: 'load-js-files-as-jsx',
-       //         setup(build) {
-       //           build.onLoad({ filter: /src\/.*\.js$/ }, async (args) => ({
-       //             loader: 'jsx',
-       //             contents: await fs.readFile(args.path, 'utf8')
-       //           }))
-       //         }
-       //       }
-       //     ]
-       //   }
-       // },
        define: {
          'process.env': process.env
+       },
+       build: {
+         rollupOptions: {
+           // https://rollupjs.org/configuration-options/
+           output: {
+             dir: 'iot-admin-web',
+             manualChunks: {
+               avue: ['@smallwei/avue'],
+               'element-ui': ['element-ui']
+             }
+           }
+         },
+         commonjsOptions: {
+           transformMixedEsModules: true // 支持混合导入
+         }
        }
+       // optimizeDeps: {
+       //   include: ['element-ui'] // 预构建 element-ui
+       // }
      }
    })
 
+
    ```
 6. 修改环境变量（VUE_APP_XXX  -->   VITE_APP_XXX）
-7. 调整package.json scripts
+7. 调整 package.json scripts
 
    ```
      "scripts": {
@@ -139,8 +136,9 @@
        "build:prod": "vite build --mode production"
      },
    ```
-8. 注意sass版本，高版本启动时会在控制台打印很多警告
-9. 解决require导入问题（改import或使用vite-plugin-require-transform）
-10. 使用wujie加载导致样式丢失问题（跟高版本Vite相关），[Github issue 参考链接](https://github.com/Tencent/wujie/issues/434)
+8. 注意 sass 版本，高版本启动时会在控制台打印很多警告
+9. 解决 require 导入问题（改 import 或使用 vite-plugin-require-transform）
+10. 使用 wujie 加载导致样式丢失问题（跟高版本 Vite 相关），[Github issue 解决](https://github.com/Tencent/wujie/issues/434)
+11. 使用 vite 打包导致 ElementUI 的 table 组件显示空白，[Github issue 解决](https://github.com/ElemeFE/element/issues/21968)
 
 其他参考链接：[vue2 迁移到vite](https://juejin.cn/post/7265524106816700479#heading-1)、[从 Vue-cli 迁移到 vite 的记录](https://carljin.com/posts/migrating-from-webpack-vue-cli-to-vitejs/)
